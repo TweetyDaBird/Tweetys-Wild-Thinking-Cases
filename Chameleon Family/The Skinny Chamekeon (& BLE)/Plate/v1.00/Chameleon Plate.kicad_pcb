@@ -1,0 +1,9489 @@
+(kicad_pcb
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(general
+		(thickness 1.6)
+		(legacy_teardrops no)
+	)
+	(paper "A4")
+	(title_block
+		(title "Chameleon Plate")
+		(date "2025-11-29")
+		(rev "v1.00")
+		(company "Tweety's Wild Thinking")
+		(comment 1 "Markus Knutsson <markus.knutsson@tweety.se>")
+		(comment 2 "https://github.com/TweetyDaBird")
+		(comment 3 "Licensed under Creative Commons BY-SA 4.0 International ")
+	)
+	(layers
+		(0 "F.Cu" signal)
+		(2 "B.Cu" signal)
+		(9 "F.Adhes" user "F.Adhesive")
+		(11 "B.Adhes" user "B.Adhesive")
+		(13 "F.Paste" user)
+		(15 "B.Paste" user)
+		(5 "F.SilkS" user "F.Silkscreen")
+		(7 "B.SilkS" user "B.Silkscreen")
+		(1 "F.Mask" user)
+		(3 "B.Mask" user)
+		(17 "Dwgs.User" user "User.Drawings")
+		(19 "Cmts.User" user "User.Comments")
+		(21 "Eco1.User" user "User.Eco1")
+		(23 "Eco2.User" user "User.Eco2")
+		(25 "Edge.Cuts" user)
+		(27 "Margin" user)
+		(31 "F.CrtYd" user "F.Courtyard")
+		(29 "B.CrtYd" user "B.Courtyard")
+		(35 "F.Fab" user)
+		(33 "B.Fab" user)
+		(39 "User.1" user)
+		(41 "User.2" user)
+		(43 "User.3" user)
+		(45 "User.4" user)
+		(47 "User.5" user)
+		(49 "User.6" user)
+		(51 "User.7" user)
+		(53 "User.8" user)
+		(55 "User.9" user)
+	)
+	(setup
+		(stackup
+			(layer "F.SilkS"
+				(type "Top Silk Screen")
+				(color "White")
+			)
+			(layer "F.Paste"
+				(type "Top Solder Paste")
+			)
+			(layer "F.Mask"
+				(type "Top Solder Mask")
+				(color "Purple")
+				(thickness 0.01)
+			)
+			(layer "F.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 1"
+				(type "core")
+				(color "FR4 natural")
+				(thickness 1.51)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "B.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "B.Mask"
+				(type "Bottom Solder Mask")
+				(color "Purple")
+				(thickness 0.01)
+			)
+			(layer "B.Paste"
+				(type "Bottom Solder Paste")
+			)
+			(layer "B.SilkS"
+				(type "Bottom Silk Screen")
+				(color "White")
+			)
+			(copper_finish "None")
+			(dielectric_constraints no)
+		)
+		(pad_to_mask_clearance 0)
+		(allow_soldermask_bridges_in_footprints no)
+		(tenting front back)
+		(pcbplotparams
+			(layerselection 0x00000000_00000000_55555555_5755f5ff)
+			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
+			(disableapertmacros no)
+			(usegerberextensions no)
+			(usegerberattributes yes)
+			(usegerberadvancedattributes yes)
+			(creategerberjobfile yes)
+			(dashed_line_dash_ratio 12.000000)
+			(dashed_line_gap_ratio 3.000000)
+			(svgprecision 4)
+			(plotframeref no)
+			(mode 1)
+			(useauxorigin no)
+			(hpglpennumber 1)
+			(hpglpenspeed 20)
+			(hpglpendiameter 15.000000)
+			(pdf_front_fp_property_popups yes)
+			(pdf_back_fp_property_popups yes)
+			(pdf_metadata yes)
+			(pdf_single_document no)
+			(dxfpolygonmode yes)
+			(dxfimperialunits yes)
+			(dxfusepcbnewfont yes)
+			(psnegative no)
+			(psa4output no)
+			(plot_black_and_white yes)
+			(sketchpadsonfab no)
+			(plotpadnumbers no)
+			(hidednponfab no)
+			(sketchdnponfab yes)
+			(crossoutdnponfab yes)
+			(subtractmaskfromsilk no)
+			(outputformat 1)
+			(mirror no)
+			(drillshape 1)
+			(scaleselection 1)
+			(outputdirectory "")
+		)
+	)
+	(net 0 "")
+	(footprint "Keyboard_Plate:SW_MX_Plate_Placeholder_nodrill_NOBORDER_13,9"
+		(layer "F.Cu")
+		(uuid "00bfcaa1-f292-4e84-8b1d-ac6c77f22250")
+		(at 61.18 92.03)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW26"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "dde69ca7-2afb-4606-aa15-6e1d5bd1b350")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "PG151101S11"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "aa94e153-9d38-4286-9ffd-3bda498f45c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "df563cfb-ced1-4964-aee8-be80780dde7b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d05119a3-f205-475c-9000-633dc525a706")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2803348"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ce6c8c80-2bc6-4edf-8ce7-f42bb4487bcf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/d949731b-8cac-4f3d-bd1e-573719ba2264")
+		(sheetname "/")
+		(sheetfile "Skinny Chameleon.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -6.95 -6.95)
+			(end -6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "9336f37e-8584-4908-9e60-6bd401939bfb")
+		)
+		(fp_line
+			(start -6.95 6.95)
+			(end 6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "e685c3e3-0efc-4fe5-9ba9-d2ddc25382cc")
+		)
+		(fp_line
+			(start 6.95 -6.95)
+			(end -6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "9144b0c8-e3ee-4832-be30-7efed4b30d34")
+		)
+		(fp_line
+			(start 6.95 6.95)
+			(end 6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "8ed0c66f-8c1e-4dcc-9230-add3f29781ef")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard_Plate:Spacer Plate hole"
+		(layer "F.Cu")
+		(uuid "029b8a92-443a-40bb-b09e-84e3a5f34678")
+		(at 51.68 63.53)
+		(descr "Mounting Hole 2.5mm, no annular")
+		(tags "mounting hole 2.5mm no annular")
+		(property "Reference" "H6"
+			(at 0 -3.5 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "91fb1bc3-bce8-45be-a450-07bec1957e3f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Spacer_PCB"
+			(at 0 3.5 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5360b3c1-447f-405e-ae75-d799d9e0c65a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e2c59c7d-c0c2-457b-b1ab-d70c4c67d6c4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ac8423d4-4148-4606-a848-04973ff3d8ec")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9d7d0168-cbde-4bda-adaf-447d81b1c386")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/5437eaca-af8a-479f-ad8f-de8fc9d3165c")
+		(sheetname "/")
+		(sheetfile "Skinny Chameleon.kicad_sch")
+		(attr exclude_from_pos_files dnp)
+		(fp_circle
+			(center 0 0)
+			(end 2.5 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "b67b72b5-1789-4960-bf11-78400cd9998b")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.75 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "ad56eaab-a4f9-43c5-a9ef-677cd971f90b")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "d0475838-1853-478a-a80d-dad438282747")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.5 2.5)
+			(drill 2.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "95fcfdd7-6c51-43a2-85b0-3b08bc2d59a3")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Keyboard_Plate:SW_MX_Plate_Placeholder_nodrill_NOBORDER_13,9"
+		(layer "F.Cu")
+		(uuid "031f1e29-3141-4bae-86a8-5e6791f7641f")
+		(at 213.18 73.03)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW22"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "44e6f2b6-8b5c-4baf-9c1b-e49509b3cdfc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "PG151101S11"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6ca537f0-e2da-4188-81f6-bc15a466d821")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b5dba472-21e6-4110-9710-5e7f2aaa01df")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f71bc2ce-3d03-4fa5-953a-e1459ee3c47d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2803348"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c99bfb1c-a38e-4e84-9569-07525761aeb3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/64a7b398-58b5-4eff-a625-74207c7c747f")
+		(sheetname "/")
+		(sheetfile "Skinny Chameleon.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -6.95 -6.95)
+			(end -6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "55420555-2116-4571-bcfa-a897868d9b19")
+		)
+		(fp_line
+			(start -6.95 6.95)
+			(end 6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "cf74729b-6164-46bd-bd24-83f7a7e65388")
+		)
+		(fp_line
+			(start 6.95 -6.95)
+			(end -6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d887916f-fd54-4e60-9419-414fe8918d55")
+		)
+		(fp_line
+			(start 6.95 6.95)
+			(end 6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c02c8cac-713b-487f-a2f5-70165a0794ec")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard_Plate:SW_MX_Plate_Placeholder_nodrill_NOBORDER_13,9"
+		(layer "F.Cu")
+		(uuid "06bdeeb9-cc0a-4ab6-a615-2ce0234534d9")
+		(at 213.18 54.03)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW10"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "24b94619-81cd-4e52-bf82-c1c457255f33")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "PG151101S11"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9ee67395-b356-4834-8d04-6c14dc68764d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3d469b05-f883-4172-aaf8-7ce6b2c0ef42")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "471ae746-cea6-40f0-8149-ffe0a6ca5c19")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2803348"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "08637cf0-ebca-4141-9560-78211be9e41c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/4b765e04-3733-49e3-b8b4-26ac18c1c077")
+		(sheetname "/")
+		(sheetfile "Skinny Chameleon.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -6.95 -6.95)
+			(end -6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "00c9c4fb-9787-4783-939c-e737dc75ab35")
+		)
+		(fp_line
+			(start -6.95 6.95)
+			(end 6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "8a2bf94f-66e1-4f0f-9e7c-24edc6920c3b")
+		)
+		(fp_line
+			(start 6.95 -6.95)
+			(end -6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "7ea8a8c8-7ddb-4d57-b6db-24f7b9ff9632")
+		)
+		(fp_line
+			(start 6.95 6.95)
+			(end 6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "2e9bc298-84c4-4f16-889d-3b746d305c89")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard_Plate:Spacer Plate hole"
+		(layer "F.Cu")
+		(uuid "0792e75d-876f-4426-a0c9-3ee88e84aeac")
+		(at 89.73 120.53)
+		(descr "Mounting Hole 2.5mm, no annular")
+		(tags "mounting hole 2.5mm no annular")
+		(property "Reference" "H13"
+			(at 0 -3.5 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "044b4fda-5f3e-4189-8f3d-5c305d1515e3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Spacer_PCB"
+			(at 0 3.5 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6feae694-fbe1-47c9-915b-9f6dfa2ba9ac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c2d9d006-8a76-4914-ba6f-8e798d01295a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4e092c27-3d2a-4256-ac23-05ae3567d096")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0f008a10-63e6-442c-9d84-86afa15f49a9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/e81c2bbc-4fa7-4f89-ad24-2df80d33bec2")
+		(sheetname "/")
+		(sheetfile "Skinny Chameleon.kicad_sch")
+		(attr exclude_from_pos_files dnp)
+		(fp_circle
+			(center 0 0)
+			(end 2.5 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "04751415-15f7-41cd-a025-fecf756c606a")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.75 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "078d82d5-57f9-45de-8d50-6a3bef5eafbc")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "f67a5eaa-3e64-4f0f-a292-977091a053ff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.5 2.5)
+			(drill 2.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "1a98300b-d2af-4ea7-8c81-12761187f815")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Keyboard_Plate:SW_MX_Plate_Placeholder_nodrill_NOBORDER_13,9"
+		(layer "F.Cu")
+		(uuid "0b8b6f72-b9f3-4256-8f41-b8337170c037")
+		(at 61.18 111.03)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW38"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "810d8278-3f85-4c05-a7b3-53ebd8afb289")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "PG151101S11"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f14c2956-8f87-4914-9130-0a72d4735b83")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1a331192-70d3-4b00-bbe7-8c4c571cd0e9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fcdbe83d-47ba-484b-b6e2-9d4991d22aa6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2803348"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "471d9cb7-98cc-4eda-bee1-10ba1a549241")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/76a6dbe7-2b7b-449f-b129-93f222f29ab3")
+		(sheetname "/")
+		(sheetfile "Skinny Chameleon.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -6.95 -6.95)
+			(end -6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "9dd20101-bbee-4486-8aa5-815cb4d531d3")
+		)
+		(fp_line
+			(start -6.95 6.95)
+			(end 6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "1b2c8bac-8e19-447c-8f91-7e947d17f707")
+		)
+		(fp_line
+			(start 6.95 -6.95)
+			(end -6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "3a769f92-6c6b-4d04-9603-d2f07bfe9156")
+		)
+		(fp_line
+			(start 6.95 6.95)
+			(end 6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "eb7ae696-7229-4c96-ae4d-9eb33914f0d4")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard_Plate:SW_MX_Plate_Placeholder_nodrill_NOBORDER_13,9"
+		(layer "F.Cu")
+		(uuid "0e81a62b-2aa3-47d4-b113-593423185660")
+		(at 194.18 130.03)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW57"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "cd568c54-d70f-4697-a4f2-92a32f3a3ff8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "PG151101S11"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9d3fb315-352e-40c1-90cb-78c9f997992a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cbaabcb2-1593-4af7-a4d8-5357cccff38f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "894a5c88-749e-49b1-8c03-66db4d3b4062")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2803348"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ffdf525f-ea75-48f3-954a-36b34b61781c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/ca78b240-258a-4caf-b785-0b5003d67b61")
+		(sheetname "/")
+		(sheetfile "Skinny Chameleon.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -6.95 -6.95)
+			(end -6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "4663c3a6-371d-4195-9b4b-c025d2562ad0")
+		)
+		(fp_line
+			(start -6.95 6.95)
+			(end 6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "26926655-2106-43f6-aaa4-602bc26cf31e")
+		)
+		(fp_line
+			(start 6.95 -6.95)
+			(end -6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "78c51e12-eab7-436e-a57a-7294de8d3991")
+		)
+		(fp_line
+			(start 6.95 6.95)
+			(end 6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "f5707426-d3d1-428d-b292-d140fc2faf98")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard_Plate:Special 4u center 19mm"
+		(layer "F.Cu")
+		(uuid "0fa43433-8be4-4df8-a8bc-be81657b0d04")
+		(at 146.68 130.03 180)
+		(descr "Cherry MX PCB Stabilizer 2.00u 2.25u 2.50u 2.75u")
+		(tags "Cherry MX Keyboard Stabilizer 2.00u 2.25u 2.50u 2.75u Cutout")
+		(property "Reference" "REF**"
+			(at 0 -2 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "10f6e11f-70e5-483a-81d7-f116c503edf8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Special 4u center 19mm"
+			(at 0.01 -4.48 180)
+			(layer "F.Fab")
+			(uuid "fd32a1d3-d3a3-4ba9-8a4b-b7e965250cd1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "20cf05cf-3ac1-4f23-9d3a-c1c8099b09d5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fe7ace93-c86e-418e-b2df-74507bbbb0c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_line
+			(start 35.45 6.95)
+			(end 35.45 -6.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "23b4d7db-17c4-4313-be01-9601519b9cd7")
+		)
+		(fp_line
+			(start 35.45 6.95)
+			(end 32.55 6.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "9ba85137-c6e0-42a6-9c05-526f53149186")
+		)
+		(fp_line
+			(start 32.55 7.97)
+			(end 32.55 6.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "7871ecd7-2bb1-4f1c-bfcc-d6ca9b4bd7be")
+		)
+		(fp_line
+			(start 29.25 7.97)
+			(end 32.55 7.97)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "9fe38b34-d8ec-4773-9eb0-cc70c3cd06ad")
+		)
+		(fp_line
+			(start 29.25 7.97)
+			(end 29.25 6.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "e454272d-3bfd-4733-ac4d-dfd4f5b979c7")
+		)
+		(fp_line
+			(start 13.55 7.97)
+			(end 13.55 6.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "0c6504db-6bf8-4c87-b763-03d26ac767a9")
+		)
+		(fp_line
+			(start 13.55 6.95)
+			(end 29.25 6.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "91b22443-50f0-484c-832b-a8e12c772fb5")
+		)
+		(fp_line
+			(start 10.25 7.97)
+			(end 13.55 7.97)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "ad7fd45e-061a-40a0-9ca1-b064d188c6be")
+		)
+		(fp_line
+			(start 10.25 7.97)
+			(end 10.25 6.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "0b2fdbb8-bf8f-4bbb-975f-bb8e2a93c43d")
+		)
+		(fp_line
+			(start 10.25 6.95)
+			(end 8.75 6.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "23514a6c-fea1-454d-9a09-6af4e2c9bf44")
+		)
+		(fp_line
+			(start 8.75 7.97)
+			(end 8.75 6.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "228e52dd-d085-4376-97b3-14c45da6c478")
+		)
+		(fp_line
+			(start 5.45 7.97)
+			(end 8.75 7.97)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "7111981d-8243-4007-8f7c-a7ad706040c8")
+		)
+		(fp_line
+			(start 5.45 7.97)
+			(end 5.45 6.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "ff4797db-fc7f-43b4-aeb7-861004726571")
+		)
+		(fp_line
+			(start -5.45 7.97)
+			(end -5.45 6.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "3cc71d29-3114-49d3-9510-b9ec04460bd9")
+		)
+		(fp_line
+			(start -5.45 6.95)
+			(end 5.45 6.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "f3538a6c-39e1-471f-b789-cfc666e5c1b7")
+		)
+		(fp_line
+			(start -8.75 7.97)
+			(end -5.45 7.97)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "3cc2326e-683b-4df0-80c9-a276222f6cf9")
+		)
+		(fp_line
+			(start -8.75 7.97)
+			(end -8.75 6.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c30dd0b1-5109-488b-ab9e-3b44b6a6a5d4")
+		)
+		(fp_line
+			(start -8.75 6.95)
+			(end -10.25 6.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "0b5a4acf-8402-4558-865e-4bebd363a0f6")
+		)
+		(fp_line
+			(start -10.25 7.97)
+			(end -10.25 6.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "e71c1435-04c4-4e6c-8fae-d03fbca76fe6")
+		)
+		(fp_line
+			(start -10.25 7.97)
+			(end -13.55 7.97)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "2bc767f2-30ee-4519-949b-363a050221ff")
+		)
+		(fp_line
+			(start -13.55 7.97)
+			(end -13.55 6.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d443aea3-c665-4137-a24f-fa05b9cd72a5")
+		)
+		(fp_line
+			(start -29.25 7.97)
+			(end -29.25 6.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "84a857d4-6a48-41d8-b40b-2ce0ee8d3eb1")
+		)
+		(fp_line
+			(start -29.25 7.97)
+			(end -32.55 7.97)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "f9aa8322-b20d-434e-9c87-4f0610c5821d")
+		)
+		(fp_line
+			(start -29.25 6.95)
+			(end -13.55 6.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "254eaf39-ac5d-46c6-96d6-4b2d23621d0a")
+		)
+		(fp_line
+			(start -32.55 7.97)
+			(end -32.55 6.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "8a63e0f7-6d57-47cd-b969-524c99a0e09a")
+		)
+		(fp_line
+			(start -35.45 6.95)
+			(end -32.55 6.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "17e8b693-f172-4ae8-9bed-7805674aad39")
+		)
+		(fp_line
+			(start -35.45 -6.95)
+			(end 35.45 -6.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "bf61c91d-869c-4407-920b-7bf06d656c5d")
+		)
+		(fp_line
+			(start -35.45 -6.95)
+			(end -35.45 6.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "31e41422-3914-48c5-a3c1-f3728dc7d852")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0.12 -2.6 180)
+			(layer "F.Fab")
+			(uuid "4000508e-3547-4f1e-bcca-77addd96fc77")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/3d-library.3dshapes/Stabilizer_Cherry_MX_2.00u.stp"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/as_stabil_asm.stp"
+			(offset
+				(xyz 0 0 -1.6)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Keyboard_Plate:SW_MX_Plate_Placeholder_nodrill_NOBORDER_13,9"
+		(layer "F.Cu")
+		(uuid "12446fc2-30f2-43f4-83f4-69e49075212d")
+		(at 42.18 130.03)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW42"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "dc1b38f2-b855-4460-8718-3ebdacd6f0dc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "PG151101S11"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "81751fee-14cd-4aad-b432-e8c867025191")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b5402330-f1c4-43a5-9b9a-688d5d9c7203")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a9b2d8a8-796b-438f-8145-d3c18a898c47")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2803348"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ec0d3a3c-96fa-46dd-90a6-2be37be38a33")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/ac301874-5440-46d6-a597-bd741f92853f")
+		(sheetname "/")
+		(sheetfile "Skinny Chameleon.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -6.95 -6.95)
+			(end -6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "fd77e331-49ca-4b99-afb1-591942e18ec7")
+		)
+		(fp_line
+			(start -6.95 6.95)
+			(end 6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "67854206-70a7-4fb8-adfc-7216cba38245")
+		)
+		(fp_line
+			(start 6.95 -6.95)
+			(end -6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "f310737e-c49d-4738-83af-64b0029cd680")
+		)
+		(fp_line
+			(start 6.95 6.95)
+			(end 6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "76a1c6c9-5512-4d81-b9d0-bee2e67e27db")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard_Plate:SW_MX_Plate_Placeholder_nodrill_NOBORDER_13,9"
+		(layer "F.Cu")
+		(uuid "169d85fe-b9cd-4033-be0e-7656c21431cd")
+		(at 194.18 111.03)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW45"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "68075654-e60d-450c-a7cd-93eba139dc40")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "PG151101S11"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "056ac102-79e8-4165-b4f7-219964eeeb49")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0b522aa4-f1fe-4c73-8bee-55d6b5298bd9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "67a83be7-d99b-451b-b780-477e8e1e2cfe")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2803348"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "17ae83fc-2303-4dd9-9476-61bb20ff987f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/39d31a4c-a6d2-4dc8-b44e-e1015e2339ad")
+		(sheetname "/")
+		(sheetfile "Skinny Chameleon.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -6.95 -6.95)
+			(end -6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "e6f59bce-9fff-440a-9ceb-5adaff1e0dcc")
+		)
+		(fp_line
+			(start -6.95 6.95)
+			(end 6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "6f5fcb52-d4f5-49e4-835c-0aef9f83f3b8")
+		)
+		(fp_line
+			(start 6.95 -6.95)
+			(end -6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d3d02bbd-fe02-4cc4-88d5-e1581a7f5ddb")
+		)
+		(fp_line
+			(start 6.95 6.95)
+			(end 6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "3773e8e4-9a34-4445-8d0c-e23eb7bbdffd")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard_Plate:SW_MX_Plate_Placeholder_nodrill_NOBORDER_13,9"
+		(layer "F.Cu")
+		(uuid "185b6218-39a9-4e3b-84f5-c71ad2c49c32")
+		(at 118.18 92.03)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW29"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3abe283b-1482-4a45-9268-aa162609daaf")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "PG151101S11"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8fd283dc-eff2-495c-beeb-e4efd3c4e133")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "85c7619d-b753-4feb-b6f9-e75fa8635f1b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3a736452-f96f-4bf4-8a4a-a229a9dabbea")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2803348"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9d1629f9-ad28-49eb-bcda-013741ba8289")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/0d451e58-7ae5-4a49-b62c-ee8cfc47e439")
+		(sheetname "/")
+		(sheetfile "Skinny Chameleon.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -6.95 -6.95)
+			(end -6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "13d53d0e-cd6e-408c-acd5-1fcd8aa1596a")
+		)
+		(fp_line
+			(start -6.95 6.95)
+			(end 6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "ffe307fe-6230-459b-b3c3-ee18fc38565a")
+		)
+		(fp_line
+			(start 6.95 -6.95)
+			(end -6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "1f1bb203-1a3b-47c5-9577-d719459779dd")
+		)
+		(fp_line
+			(start 6.95 6.95)
+			(end 6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "3b0fcaa9-b836-47a3-b45f-4068b2f20f23")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard_Plate:SW_MX_Plate_Placeholder_nodrill_NOBORDER_13,9"
+		(layer "F.Cu")
+		(uuid "1b3157d4-8311-4444-a4f6-d5892f7ed3ff")
+		(at 251.18 92.03)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW36"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d87955e4-87a2-48b2-9af8-00cd455e0ccd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "PG151101S11"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e7f45873-ee50-4e2b-b01b-32324391b108")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad199c12-055b-4117-bc51-cfdfa283297c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e25e5b91-7e73-41c2-baf0-4971efb4a299")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2803348"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8a847473-2e96-42cb-a275-1e5fe4ebd3de")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/56113e2e-ecee-408f-9e98-f6e9ef65216f")
+		(sheetname "/")
+		(sheetfile "Skinny Chameleon.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -6.95 -6.95)
+			(end -6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "f6b0b84d-8581-47b3-822e-0bbb9f926f5b")
+		)
+		(fp_line
+			(start -6.95 6.95)
+			(end 6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "cbaeaee6-4ae8-4272-970e-d1509b3f5818")
+		)
+		(fp_line
+			(start 6.95 -6.95)
+			(end -6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "670f447d-bb80-4acd-89ad-21b08631486b")
+		)
+		(fp_line
+			(start 6.95 6.95)
+			(end 6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d9a138ee-a4a6-4f7e-89a1-cd0d2dd3569f")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard_Plate:SW_MX_Plate_Placeholder_nodrill_NOBORDER_13,9"
+		(layer "F.Cu")
+		(uuid "1fbef963-8e4f-4edc-b4f7-098152dde247")
+		(at 175.18 111.03)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW37"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9d61a1e0-e9e3-4359-a0cd-45de29d2788b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "PG151101S11"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b8e13a5f-6d29-4f9a-bf08-ff907f556efe")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "266d0df4-f8e9-4840-a769-93c5823fb6b3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "75f84839-8d21-4779-96ee-4cb55d2e90d5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2803348"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "063e8309-9e63-4017-96c9-c970dedf700c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/16f7f255-99ad-4458-94dd-321e36cee907")
+		(sheetname "/")
+		(sheetfile "Skinny Chameleon.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -6.95 -6.95)
+			(end -6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "01b79519-3c5e-4806-8632-21a0bc8f2416")
+		)
+		(fp_line
+			(start -6.95 6.95)
+			(end 6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "53313517-f87f-4139-9ffc-d1c5d669f14d")
+		)
+		(fp_line
+			(start 6.95 -6.95)
+			(end -6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "83751985-6728-48ec-ac83-e20c61a1bd16")
+		)
+		(fp_line
+			(start 6.95 6.95)
+			(end 6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "50ce3682-8ea2-459e-ba7b-134f3e0b7022")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard_Plate:SW_MX_Plate_Placeholder_nodrill_NOBORDER_13,9"
+		(layer "F.Cu")
+		(uuid "2865032c-3751-451d-866d-2b8864c3fb0a")
+		(at 194.18 54.03)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW9"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "186f9112-5c24-4bbb-888c-489b12d8d1fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "PG151101S11"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d8d5870d-b04d-425a-b7f2-4a58ce56869d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "59612910-a3aa-46ec-8746-5e4221653458")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "485f4894-5584-445d-9150-7589f2af2545")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2803348"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e9c821dd-4510-4f27-96fe-dc0dd07a9ac3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/de5a236c-6894-41aa-9a8a-9a7f65d24717")
+		(sheetname "/")
+		(sheetfile "Skinny Chameleon.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -6.95 -6.95)
+			(end -6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "ef530ff5-9f3a-471c-9564-25af88d1716c")
+		)
+		(fp_line
+			(start -6.95 6.95)
+			(end 6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "4488b16b-3a96-4f76-87f4-b9b704a3742f")
+		)
+		(fp_line
+			(start 6.95 -6.95)
+			(end -6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "984ee241-1dd4-4173-89d0-8e5c4935c912")
+		)
+		(fp_line
+			(start 6.95 6.95)
+			(end 6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "68ea64cc-ecc1-40d3-9bad-a067f1c4952d")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard_Plate:SW_MX_Plate_Placeholder_nodrill_NOBORDER_13,9"
+		(layer "F.Cu")
+		(uuid "2cdacea6-de1b-4fe5-9cd0-905a9f440093")
+		(at 156.18 111.03)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW12"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e11a5b52-9a98-4510-a385-82a998ee2286")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "PG151101S11"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9a668d1a-53ec-47f4-b562-00899083c65e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "95de9702-1caf-480a-8f1a-a9c9bc212580")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "08f76ae7-3074-44f8-bb08-c705438404a1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2803348"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5b23e556-4860-4a69-9016-6a1302ee18dd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/49a40da2-60a0-416c-80ef-03b334b6db62")
+		(sheetname "/")
+		(sheetfile "Skinny Chameleon.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -6.95 -6.95)
+			(end -6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "9bb0ca34-f6b7-4618-bec8-c7cbcb6b2dec")
+		)
+		(fp_line
+			(start -6.95 6.95)
+			(end 6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "0ecc9897-1adc-49a9-a7b1-905a75b87641")
+		)
+		(fp_line
+			(start 6.95 -6.95)
+			(end -6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "df87d15a-9bb2-4832-bde2-dbe3cffc3e3b")
+		)
+		(fp_line
+			(start 6.95 6.95)
+			(end 6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "27a8bf00-6fad-4273-9195-c13d9ed3fbb0")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard_Plate:Spacer Plate hole"
+		(layer "F.Cu")
+		(uuid "2d6f87ea-4c5d-48ce-965f-f9d97ad61bc1")
+		(at 89.73 82.53)
+		(descr "Mounting Hole 2.5mm, no annular")
+		(tags "mounting hole 2.5mm no annular")
+		(property "Reference" "H14"
+			(at 0 -3.5 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e90e1f85-9994-4b23-bf1e-b4822e5d1b5e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Spacer_PCB"
+			(at 0 3.5 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1c7bdc47-339b-4693-9a30-a0f9a286c47d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "13ad45b4-b730-4ec2-bae1-a1f0299ea838")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "25456529-acfa-4473-8a35-9217b7011cb8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2a99452d-f440-4230-94a3-c20092a7526d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/f21e5fbc-083c-4c63-96b1-3c19bd7b5107")
+		(sheetname "/")
+		(sheetfile "Skinny Chameleon.kicad_sch")
+		(attr exclude_from_pos_files dnp)
+		(fp_circle
+			(center 0 0)
+			(end 2.5 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "473579fb-9b84-4930-a50f-19b2f27cb111")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.75 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "14617a15-2995-4c78-9bec-47b211823321")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "dd8e1024-8b27-4df4-b826-26c7ebecc3c4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.5 2.5)
+			(drill 2.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "0ab5e525-49d8-430a-b70f-c24a1d780c49")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Keyboard_Plate:SW_MX_Plate_Placeholder_nodrill_NOBORDER_13,9"
+		(layer "F.Cu")
+		(uuid "2dc3856c-80c4-46e9-9056-2e0876240cc9")
+		(at 232.18 130.03)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW59"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9047d3cc-b74f-4396-8e74-e180ca956600")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "PG151101S11"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "883b8b3e-2872-47cb-916c-cbd18e573f2f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7aff127e-5426-48e4-86c4-0205d0c3d488")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "de8a3396-bf8a-400e-938c-75aaa7660d04")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2803348"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ebd9dcc2-7a76-4535-8fbd-a057ef2e7e57")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/30605497-d87d-4737-a94f-c0c5a0ff4c58")
+		(sheetname "/")
+		(sheetfile "Skinny Chameleon.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -6.95 -6.95)
+			(end -6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "89b10fe9-5465-43ca-8a89-2c578f38ec1f")
+		)
+		(fp_line
+			(start -6.95 6.95)
+			(end 6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "ac28fa3c-e1fb-4fe0-ad4a-6244528461ac")
+		)
+		(fp_line
+			(start 6.95 -6.95)
+			(end -6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "3e276503-d68c-4990-9616-9edc7ec8a0c5")
+		)
+		(fp_line
+			(start 6.95 6.95)
+			(end 6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "4db839c8-d438-472f-9d7a-6976d4fe278e")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard_Plate:SW_MX_Plate_Placeholder_nodrill_NOBORDER_13,9"
+		(layer "F.Cu")
+		(uuid "306b4e90-4b33-4cc3-a11d-960ebb75da44")
+		(at 137.18 92.03)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW30"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3a735d04-b048-4848-be89-140d81d49ed5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "PG151101S11"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e17f29a4-c2cd-465b-9dab-f663e353f408")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "23594e92-1992-48c2-a2ba-f34504c2f2de")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f71603e9-6938-43aa-bca3-aaaa4c55dcfd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2803348"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "27eb4e9d-38fd-4765-ba73-a9102d1bf22c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/be9c7218-0124-4d43-85f2-1d78897c83e2")
+		(sheetname "/")
+		(sheetfile "Skinny Chameleon.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -6.95 -6.95)
+			(end -6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "7506d86b-19d1-48eb-8cd7-cb1f5ff53223")
+		)
+		(fp_line
+			(start -6.95 6.95)
+			(end 6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "920eb7cb-efcf-42ac-a232-e880f24ea947")
+		)
+		(fp_line
+			(start 6.95 -6.95)
+			(end -6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "17e813cf-06b1-4ea2-8c60-234bd1f3947f")
+		)
+		(fp_line
+			(start 6.95 6.95)
+			(end 6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d8fe84d1-b7db-4403-8af6-7c7512912438")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard_Plate:SW_MX_Plate_Placeholder_nodrill_NOBORDER_13,9"
+		(layer "F.Cu")
+		(uuid "33bce37f-dfbe-4232-a0bf-597e590c5c5a")
+		(at 137.18 111.03)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW1"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8d13db37-2fed-470b-a150-7450314bbbf1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "PG151101S11"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "51b20b49-93cb-436a-a231-e19464f6fa17")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6c53cf62-4888-4124-9d4d-772c4c350e1a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "82f1b615-f8c3-4b61-bf36-4dec2ffc26ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2803348"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "778b8cb9-eeb9-4610-83ec-36112101a1cf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/dc92b75a-c5b7-4173-95d0-08137668bb8c")
+		(sheetname "/")
+		(sheetfile "Skinny Chameleon.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -6.95 -6.95)
+			(end -6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "69869716-2274-414e-9600-fdbe8be3ef59")
+		)
+		(fp_line
+			(start -6.95 6.95)
+			(end 6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d310b862-0329-49cd-90c4-69bad25b6d24")
+		)
+		(fp_line
+			(start 6.95 -6.95)
+			(end -6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "41b57fc2-3ccc-4b6d-96cb-a11f83dc00c5")
+		)
+		(fp_line
+			(start 6.95 6.95)
+			(end 6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "8fcb568e-4162-49ce-b3da-0f3b3aa26492")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard_Plate:SW_MX_Plate_Placeholder_nodrill_NOBORDER_13,9"
+		(layer "F.Cu")
+		(uuid "35f25b9d-b21c-491b-bb34-e46ae9c6a40c")
+		(at 156.18 73.03)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW19"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "63ce62bb-1de0-4f8f-9f56-9cd7519547be")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "PG151101S11"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "78da6c16-3cbf-4d78-99fc-97af9b97a699")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7c80e476-dec8-4e62-a040-8661d13b00f0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4b7bd8ad-0bdb-4570-9b47-b05337983a20")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2803348"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7d0568f8-778c-4d13-bbea-edc7ef5b6f54")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/2af6cffb-09aa-47ce-a394-7e4a5cd26403")
+		(sheetname "/")
+		(sheetfile "Skinny Chameleon.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -6.95 -6.95)
+			(end -6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "05630d5a-d069-4c68-808a-12b5688e4d45")
+		)
+		(fp_line
+			(start -6.95 6.95)
+			(end 6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "74b1d34a-bf2b-41d8-88d2-192eb9d0e57f")
+		)
+		(fp_line
+			(start 6.95 -6.95)
+			(end -6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "44d7cead-0c87-4ca2-afe7-c8c38b5039a7")
+		)
+		(fp_line
+			(start 6.95 6.95)
+			(end 6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "ac9816c1-d9cd-4728-bb07-e7fcf6829891")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard_Plate:SW_MX_Plate_Placeholder_nodrill_NOBORDER_13,9"
+		(layer "F.Cu")
+		(uuid "36380271-198f-45b8-9c9a-913e4304eb2f")
+		(at 175.18 54.03)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW8"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5fcc00ea-761f-44a5-abe1-bcaaa895b855")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "PG151101S11"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4ba5c55c-e6ee-4adc-b276-ba99080a1e8a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fc9a8318-34da-4d79-a90a-ceb0b97d39bd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f21c7a9b-0e72-4d43-b65f-19869a68ca95")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2803348"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dc91c5ff-80b6-4425-915b-66fc24cc2670")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/6993bfc5-b564-4d16-8a89-660fc5f135bd")
+		(sheetname "/")
+		(sheetfile "Skinny Chameleon.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -6.95 -6.95)
+			(end -6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "099d42c0-88c1-4785-a8e4-0471158cf3c7")
+		)
+		(fp_line
+			(start -6.95 6.95)
+			(end 6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "7a416d3c-8103-4092-841f-969a714f06eb")
+		)
+		(fp_line
+			(start 6.95 -6.95)
+			(end -6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "0a1bf7c0-0935-4263-817a-11062210507f")
+		)
+		(fp_line
+			(start 6.95 6.95)
+			(end 6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "dfe1b4da-c3c9-4598-9b8d-f5a5e6a3388d")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard_Plate:Spacer Plate hole"
+		(layer "F.Cu")
+		(uuid "41cf338f-bccb-4a21-babd-4e1cd52bed8f")
+		(at 241.68 101.53)
+		(descr "Mounting Hole 2.5mm, no annular")
+		(tags "mounting hole 2.5mm no annular")
+		(property "Reference" "H4"
+			(at 0 -3.5 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "27124959-68d8-43b6-a8fb-c0ab66ce1cd4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Spacer_PCB"
+			(at 0 3.5 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "07ff3333-be4d-4c07-bde0-b3a2cb4a7fbf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d5a89d63-9aff-4ca7-bb39-a00d27de71e9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "86a447e4-c2c7-455d-9ab8-eadb0b173a7f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "776a79b7-e6c7-4d45-b845-c1a190f14b71")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/c7a52ae2-6343-4c9a-b33e-98681bd576ae")
+		(sheetname "/")
+		(sheetfile "Skinny Chameleon.kicad_sch")
+		(attr exclude_from_pos_files dnp)
+		(fp_circle
+			(center 0 0)
+			(end 2.5 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "dd836c4b-0cf3-4baf-9d79-3d8baba8247a")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.75 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "326dbb82-c693-4b47-9ecd-d216fd38550d")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "2a9bd046-3f89-4bcf-a00a-7d70f0076e8f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.5 2.5)
+			(drill 2.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "1d466e92-13f5-4e15-aa88-5ba5a599d675")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Keyboard_Plate:SW_MX_Plate_Placeholder_nodrill_NOBORDER_13,9"
+		(layer "F.Cu")
+		(uuid "432b1999-142f-4558-b22e-7afd23059649")
+		(at 232.18 73.03)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW23"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ca82b1db-852b-4a89-a573-c8a3e402afda")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "PG151101S11"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e63170a2-b52c-403f-8288-f3ad015d7c4f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "286bda9b-80bb-45ab-8ee2-a599a005d0a0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eb2d0012-d316-407e-a324-2939cefc9200")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2803348"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e8e79e24-94eb-4ba9-95e9-2bdde9792af1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/bebe751e-7635-4528-897c-ad081cab96f2")
+		(sheetname "/")
+		(sheetfile "Skinny Chameleon.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -6.95 -6.95)
+			(end -6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "92f005d9-8a09-4a25-b00b-e867b74eb2bf")
+		)
+		(fp_line
+			(start -6.95 6.95)
+			(end 6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "34847b5b-8e43-4d69-a9dc-5bad51991212")
+		)
+		(fp_line
+			(start 6.95 -6.95)
+			(end -6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "39c7ce7e-09d9-4bc3-b46e-1b4de6c910fb")
+		)
+		(fp_line
+			(start 6.95 6.95)
+			(end 6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "1c4f1254-5ddc-4171-b03e-d8018af1681d")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard_Plate:SW_MX_Plate_Placeholder_nodrill_NOBORDER_13,9"
+		(layer "F.Cu")
+		(uuid "440ba5fc-6ee1-4afd-9065-beee6bf99247")
+		(at 118.18 111.03)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW48"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5e8f7af2-75a0-4685-96c1-56136e17f15b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "PG151101S11"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "bb4f1413-9859-40e5-bb04-d60931d81c28")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fe6cd68b-0cd8-439d-88ac-44684329eeae")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cee91cca-c306-438c-affa-ad4a281cfecd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2803348"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0ca9d250-40f1-42bf-b9eb-70332816a653")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/bacf36cb-6617-41d8-b704-a27299f36280")
+		(sheetname "/")
+		(sheetfile "Skinny Chameleon.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -6.95 -6.95)
+			(end -6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "a01a47d3-41d5-46a3-b57d-2ccb519ef209")
+		)
+		(fp_line
+			(start -6.95 6.95)
+			(end 6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "83856901-17f5-4224-89c9-942e0baaedaf")
+		)
+		(fp_line
+			(start 6.95 -6.95)
+			(end -6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "aa7b0dd0-d810-4dd0-bd32-85d27bf79116")
+		)
+		(fp_line
+			(start 6.95 6.95)
+			(end 6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "b11defbc-ba4f-499a-871a-e50dd1b4469b")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard_Plate:SW_MX_Plate_Placeholder_nodrill_NOBORDER_13,9"
+		(layer "F.Cu")
+		(uuid "47978e87-2fb7-474a-a4cf-ae9b016ed89a")
+		(at 156.18 54.03)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW7"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d4a065ef-16c8-4a98-b1f4-dcd1a6b3318e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "PG151101S11"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4bcf5860-89ab-4400-a71c-338c3bf39487")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1bff76e1-98e4-423f-ba00-885c2c961771")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9e7aa380-d2db-4304-904d-27ca254a2cb0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2803348"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "99de036b-1655-488b-87d9-d6a156e1db3e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/bdafa82d-6ca2-4bed-b101-7757a316ba6a")
+		(sheetname "/")
+		(sheetfile "Skinny Chameleon.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -6.95 -6.95)
+			(end -6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "9d3a2179-60ee-4d54-890e-11f7b95cfc4c")
+		)
+		(fp_line
+			(start -6.95 6.95)
+			(end 6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "af3f1143-8948-4793-8842-2b349081e251")
+		)
+		(fp_line
+			(start 6.95 -6.95)
+			(end -6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "41cfb3d4-ff52-4640-8153-9afb3ea47603")
+		)
+		(fp_line
+			(start 6.95 6.95)
+			(end 6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "685fbd50-82e5-4c09-b0ac-a5f33ce95df6")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard_Plate:SW_MX_Plate_Placeholder_nodrill_NOBORDER_13,9"
+		(layer "F.Cu")
+		(uuid "4901e295-1066-4480-8779-d5c34c740c5c")
+		(at 80.18 130.03)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW51"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "074de9b6-3415-43f4-a3fd-14c83dddbc7a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "PG151101S11"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "be6d59d6-5965-4ef0-87f5-304629e4b62a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "03fd4fa7-3676-448e-8fa4-19f9d9b8ceff")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3cab626c-b2b2-4add-9466-b7e65ce9ec5b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2803348"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d693e4ba-a1d6-4510-b949-4e9a65c78355")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/99c67153-d7aa-4ede-b1a9-c26901a4374b")
+		(sheetname "/")
+		(sheetfile "Skinny Chameleon.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -6.95 -6.95)
+			(end -6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "62cda80c-871b-4fa5-9c86-6c0b2a5000a0")
+		)
+		(fp_line
+			(start -6.95 6.95)
+			(end 6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "bea1ab8f-bb09-46c4-b725-649f6b60b849")
+		)
+		(fp_line
+			(start 6.95 -6.95)
+			(end -6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "b291eb08-d4e4-4b64-9b8d-7d3f87fb55c4")
+		)
+		(fp_line
+			(start 6.95 6.95)
+			(end 6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "2354dac8-f36f-4b7c-8859-290ffaad163e")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard_Plate:SW_MX_Plate_Placeholder_nodrill_NOBORDER_13,9"
+		(layer "F.Cu")
+		(uuid "4b0a2308-36c5-4247-bede-80e5011695fd")
+		(at 118.18 54.03)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW5"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "87aa62f2-49dc-4e5f-ad6f-65de83e89c20")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "PG151101S11"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8d95efde-4afe-407c-8949-ea7766fad234")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "42870c4a-b516-4657-a6c3-c6ade8169913")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bde4bf1c-cabe-4f7e-ae9d-4d0c12d05d30")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2803348"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0930ffa0-832b-44b1-8f50-39fa5a888a1a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/7780c92b-39b8-41d4-ba5f-c58b137ceca3")
+		(sheetname "/")
+		(sheetfile "Skinny Chameleon.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -6.95 -6.95)
+			(end -6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "78ad6432-1c51-463e-af8b-b7184fbd680e")
+		)
+		(fp_line
+			(start -6.95 6.95)
+			(end 6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "1d656b83-d987-4716-b466-5bb7bd05f593")
+		)
+		(fp_line
+			(start 6.95 -6.95)
+			(end -6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "539de2ef-9fee-4a56-b6e8-18a6b3315926")
+		)
+		(fp_line
+			(start 6.95 6.95)
+			(end 6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "ee204924-8789-4764-af61-9043762a85b4")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard_Plate:SW_MX_Plate_Placeholder_nodrill_NOBORDER_13,9"
+		(layer "F.Cu")
+		(uuid "4d310dba-cb4c-4f39-8f1e-a3ec5cdeb1e5")
+		(at 213.18 92.03)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW34"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "527e8014-bdcc-4d99-9ca7-8c9181486ed7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "PG151101S11"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b80b6389-fc1d-4d81-ae52-b7cacdda292b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a8ceab07-a078-47c0-876f-3cf40421b515")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9d404af1-14b1-42fa-8d4e-bcee7ce42735")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2803348"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e0dba37e-9a63-4680-b7b4-bc11a183aa3d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/91c78627-7fee-47e3-92a2-7ffe3b7cd454")
+		(sheetname "/")
+		(sheetfile "Skinny Chameleon.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -6.95 -6.95)
+			(end -6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "3a7bc951-9608-436e-9923-56596d5a5bc3")
+		)
+		(fp_line
+			(start -6.95 6.95)
+			(end 6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "3503b980-2bd9-48c1-8e61-d04a1058ee07")
+		)
+		(fp_line
+			(start 6.95 -6.95)
+			(end -6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d815cab3-ae0b-4064-8fe8-5249b83efdf7")
+		)
+		(fp_line
+			(start 6.95 6.95)
+			(end 6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "e7a20b91-9316-4db6-ac81-2e14b3733922")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard_Plate:SW_MX_Plate_Placeholder_nodrill_NOBORDER_13,9"
+		(layer "F.Cu")
+		(uuid "4e915848-e5d6-4271-979a-0c7eeef0488b")
+		(at 42.18 92.03)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW25"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b515f3af-749b-4b24-96aa-ef86dbc87169")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "PG151101S11"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "df9aa8ee-ef7c-431b-a0e7-a3daf6557d85")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "04aed33a-2e70-47ed-9d07-34c86036fac4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "44a737f5-c1a0-40da-b2dd-aa80da7d27e7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2803348"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "54298872-704f-4c70-a17c-a688faa78a3b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/6ed44438-a0e7-414e-bedd-e34182a69526")
+		(sheetname "/")
+		(sheetfile "Skinny Chameleon.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -6.95 -6.95)
+			(end -6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "639207b4-9019-4cbf-9ed1-c867dffc1ec5")
+		)
+		(fp_line
+			(start -6.95 6.95)
+			(end 6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c04c219d-bcca-4a22-967b-0eb77346ffe9")
+		)
+		(fp_line
+			(start 6.95 -6.95)
+			(end -6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "3526b9cf-6a38-485d-a946-f65d86c17191")
+		)
+		(fp_line
+			(start 6.95 6.95)
+			(end 6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c861e842-e10d-4316-9478-2a26cf91c45e")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard_Plate:SW_MX_Plate_Placeholder_nodrill_NOBORDER_13,9"
+		(layer "F.Cu")
+		(uuid "5058e49f-a238-43b6-ac00-5c51b70b80b8")
+		(at 137.18 54.03)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW6"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6463779a-af4a-406a-8cb5-b1cec96b8075")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "PG151101S11"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f4641282-e145-426c-9438-dc9d89a58f4a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d951ec97-6b20-4856-a6e3-41455f1a1a99")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4d597fc1-4b17-49db-b205-5d837141028f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2803348"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0cf60246-ff6a-44b9-917d-f4dadb97bcbd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/b7d06f13-5f41-4877-bfba-706ca2a7fcd8")
+		(sheetname "/")
+		(sheetfile "Skinny Chameleon.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -6.95 -6.95)
+			(end -6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "558f8a49-254d-46d8-9fd0-5cce7f741e12")
+		)
+		(fp_line
+			(start -6.95 6.95)
+			(end 6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "7e164312-112d-4232-86ad-491a0fa7de1c")
+		)
+		(fp_line
+			(start 6.95 -6.95)
+			(end -6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d226d002-6ff1-482d-bad1-9cc871ee531f")
+		)
+		(fp_line
+			(start 6.95 6.95)
+			(end 6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "edcbbe47-0326-4356-91a6-2a4ed1d19a38")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard_Plate:SW_MX_Plate_Placeholder_nodrill_NOBORDER_13,9"
+		(layer "F.Cu")
+		(uuid "53fa6887-7dcb-401f-928a-6649b23b32a7")
+		(at 213.18 130.03)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW58"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "43485083-5122-4776-842e-6b566a522f51")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "PG151101S11"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "90fc3961-3466-41a9-a0f7-34545669bebf")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8bdd49ab-a0b8-465e-8035-44e43dd28e5e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e2085e05-482d-46d4-98e2-6eeafed4c1b4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2803348"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f8b1e30b-c443-411f-8369-242a0f957f26")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/501e216a-b86a-42e5-ae63-34e5ce5c6299")
+		(sheetname "/")
+		(sheetfile "Skinny Chameleon.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -6.95 -6.95)
+			(end -6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "6f2630cd-2dc2-4c89-b89c-7be099037b67")
+		)
+		(fp_line
+			(start -6.95 6.95)
+			(end 6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "bb8f3741-8570-45ea-bd92-5080efd6ab5e")
+		)
+		(fp_line
+			(start 6.95 -6.95)
+			(end -6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "2a291502-dbc6-4e04-9bce-8ad46af7c565")
+		)
+		(fp_line
+			(start 6.95 6.95)
+			(end 6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "bc0661a2-0e47-44a4-a5fc-16ec5963f057")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard_Plate:SW_MX_Plate_Placeholder_nodrill_NOBORDER_13,9"
+		(layer "F.Cu")
+		(uuid "5b708118-5e95-4f5f-b692-b954142e02c1")
+		(at 175.18 73.03)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW20"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9a173f5f-4653-46f3-8476-e08c7f0a3b5a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "PG151101S11"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "53b6c363-1a14-40e7-9b0d-46ce571ac8b8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f0420371-6fc6-4194-8a4b-3e630f63e514")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b8a00edb-5a2a-46fc-9baa-4ec5f1b533ea")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2803348"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ff413285-746f-4399-84af-72bc6a7a89bf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/e8aa202b-b6a7-46a3-8110-ab1eec705a2e")
+		(sheetname "/")
+		(sheetfile "Skinny Chameleon.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -6.95 -6.95)
+			(end -6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "9899965d-c589-4e6c-9759-bc8cbed3c44e")
+		)
+		(fp_line
+			(start -6.95 6.95)
+			(end 6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "025d8ae7-7271-44a1-b37c-a40b7b309fbb")
+		)
+		(fp_line
+			(start 6.95 -6.95)
+			(end -6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d709280b-160a-43b5-9e0d-4b83d069582d")
+		)
+		(fp_line
+			(start 6.95 6.95)
+			(end 6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d68104cf-6f21-4d2f-9b08-2549974a1fcc")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard_Plate:SW_MX_Plate_Placeholder_nodrill_NOBORDER_13,9"
+		(layer "F.Cu")
+		(uuid "6253691e-1614-4459-b23d-fe01396470b8")
+		(at 251.18 73.03)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW24"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d2f36bbe-229e-403b-9668-0309cac70d28")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "PG151101S11"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b1c33bf7-02b1-4bb9-81d3-fc8308f1dc37")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f980eb3b-137d-4896-9d63-c01c7e5b3fb3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed4a7e6a-3352-4fa6-9de8-19f4ae6d6c28")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2803348"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "445a9e07-1716-483f-9a44-aeb1bd709577")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/f72e0dc8-e4ae-4492-b6f1-944e6a2444a3")
+		(sheetname "/")
+		(sheetfile "Skinny Chameleon.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -6.95 -6.95)
+			(end -6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "2eebf123-ae64-4875-b3ed-487c50110ea8")
+		)
+		(fp_line
+			(start -6.95 6.95)
+			(end 6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "a5c106be-0c09-4f9d-87bf-295298c021ad")
+		)
+		(fp_line
+			(start 6.95 -6.95)
+			(end -6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "8d6d6af5-6174-4f45-818d-e51efe928c14")
+		)
+		(fp_line
+			(start 6.95 6.95)
+			(end 6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "ef4b472a-436f-478b-b8a5-51ab8c350a2e")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard_Plate:SW_MX_Plate_Placeholder_nodrill_NOBORDER_13,9"
+		(layer "F.Cu")
+		(uuid "660774f0-13be-4fdc-ae28-f3261cd4c70d")
+		(at 61.18 130.03)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW50"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3e0c6f9f-8655-4269-9e49-ab9cbc5bf5c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "PG151101S11"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "070ba3e7-f1a5-4a6a-9d98-cad62731b5cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "45c8168c-cdfc-4f79-9e18-060a0a77f166")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e6d30e82-30c2-4294-a4a7-311261c96130")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2803348"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f91f1a7a-1dae-4890-918c-638ce57e50f8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/d9c6284d-8aab-4a22-8498-424233feba02")
+		(sheetname "/")
+		(sheetfile "Skinny Chameleon.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -6.95 -6.95)
+			(end -6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "8cb3372d-ffab-4e20-8ae5-6660c803700c")
+		)
+		(fp_line
+			(start -6.95 6.95)
+			(end 6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "65a2c683-3ffa-4070-b546-b2b06c2771a7")
+		)
+		(fp_line
+			(start 6.95 -6.95)
+			(end -6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "9c879c48-3af7-4f8b-b7df-4d53c3a1a86e")
+		)
+		(fp_line
+			(start 6.95 6.95)
+			(end 6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "45bb7cdb-c3f7-4585-95d7-370a5d03572d")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard_Plate:SW_MX_Plate_Placeholder_nodrill_NOBORDER_13,9"
+		(layer "F.Cu")
+		(uuid "66daf0f4-9cee-4efc-a2dc-02af4d50c818")
+		(at 232.18 54.03)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW11"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "cf20e5a1-6dce-4f27-99de-de6bcc474908")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "PG151101S11"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7b82a14f-d74b-4530-b301-0cf22e43f642")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7280e4d6-1c90-4462-a271-0e2fd58d37ae")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bcbf70e8-a52f-469b-a06e-b502a18ab685")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2803348"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c89588b9-6339-4703-927a-637cd939547d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/44cef719-476b-4429-aea2-02a41e79cc81")
+		(sheetname "/")
+		(sheetfile "Skinny Chameleon.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -6.95 -6.95)
+			(end -6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "fe2bd02b-f5c8-4057-a3de-d2e46a9c6158")
+		)
+		(fp_line
+			(start -6.95 6.95)
+			(end 6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "a3b1ec10-0457-44bb-9a92-c8d3fb7384b7")
+		)
+		(fp_line
+			(start 6.95 -6.95)
+			(end -6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "def7ddb5-7f22-4c74-abd4-cac5f10b3192")
+		)
+		(fp_line
+			(start 6.95 6.95)
+			(end 6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "f1b9f0a9-e7e5-4c00-b07b-60b34f56fd3e")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard_Plate:SW_MX_Plate_Placeholder_nodrill_NOBORDER_13,9"
+		(layer "F.Cu")
+		(uuid "6775fe4b-b078-459f-8921-1ba697a94573")
+		(at 251.18 130.03)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW44"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b0811093-ef6b-4a35-b204-65882b74b14b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "PG151101S11"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "aa888171-03f1-4073-b1e8-b469a4ba2cd9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "516334ff-4a35-4544-8a09-16e6881be5e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "23cc7b36-4d88-483a-99e1-67a85ae0f19a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2803348"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3f8e967c-2257-4610-85f3-eb1472efcd69")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/aa5e60b3-f289-40c8-87fc-5eb28d86ecd0")
+		(sheetname "/")
+		(sheetfile "Skinny Chameleon.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -6.95 -6.95)
+			(end -6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "5df5128a-cd9d-4fe7-b736-1a0bcd4a4c58")
+		)
+		(fp_line
+			(start -6.95 6.95)
+			(end 6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "b24dc957-15ea-4d7e-9dd8-326618a3e1ec")
+		)
+		(fp_line
+			(start 6.95 -6.95)
+			(end -6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "07994605-8cf0-4f02-9cc4-76b86d0839ca")
+		)
+		(fp_line
+			(start 6.95 6.95)
+			(end 6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c1853de5-95a9-4d83-925b-c32b47af7c6a")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard_Plate:Spacer Plate hole"
+		(layer "F.Cu")
+		(uuid "67d58b11-ae07-4b96-b9a4-3a5c406d2908")
+		(at 51.68 101.53)
+		(descr "Mounting Hole 2.5mm, no annular")
+		(tags "mounting hole 2.5mm no annular")
+		(property "Reference" "H1"
+			(at 0 -3.5 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b05a5232-98c9-45fb-be7f-b8f1ac6c4c4f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Spacer_PCB"
+			(at 0 3.5 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f28cef21-7e5a-4f92-84e5-dfea64079f35")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eaeb86b5-d67d-47ab-95dd-a0475f0fa970")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9d59b078-7bfd-4c40-9985-88531a0c321d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e9026749-a22d-40c8-93df-61ac03fd1b3c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/8ef9a73f-3698-4fd1-a896-c5e6aaa0677c")
+		(sheetname "/")
+		(sheetfile "Skinny Chameleon.kicad_sch")
+		(attr exclude_from_pos_files dnp)
+		(fp_circle
+			(center 0 0)
+			(end 2.5 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "bba7ba1f-ed00-43b1-b6cc-01b974b81e50")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.75 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "6f7924bb-7380-4766-a1ce-839f8a999d97")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "cc94a5f6-0479-40a0-9ec1-c63ca654a7d8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.5 2.5)
+			(drill 2.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "2642f669-67cf-4aa3-b6a9-1fabc94a9f69")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Keyboard_Plate:SW_MX_Plate_Placeholder_nodrill_NOBORDER_13,9"
+		(layer "F.Cu")
+		(uuid "690d7838-8d96-4c93-b9c7-16b0627224e2")
+		(at 137.18 73.03)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW18"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e538b058-8a43-4b11-a796-4af463d2b852")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "PG151101S11"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b533505e-8684-4812-831f-c340720378e5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6fcb09cd-bd27-4533-9585-e9b686d6c607")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d96b5e86-9769-4d62-9917-9672571f32e7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2803348"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5d84573b-8518-45e9-ad92-ddf3365c35cd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/b356dee9-d9d9-40f4-b6b2-85222b6ce2d5")
+		(sheetname "/")
+		(sheetfile "Skinny Chameleon.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -6.95 -6.95)
+			(end -6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d45612b2-36f4-4657-9597-5bea5ec860ce")
+		)
+		(fp_line
+			(start -6.95 6.95)
+			(end 6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "f788b3d7-db3d-4e60-996e-a7be0da56861")
+		)
+		(fp_line
+			(start 6.95 -6.95)
+			(end -6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "14e45bff-a87a-4a1e-b4e6-173b754d63f1")
+		)
+		(fp_line
+			(start 6.95 6.95)
+			(end 6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "595b0ca7-2ca3-465e-8fb2-3a874ec57aa0")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard_Plate:SW_MX_Plate_Placeholder_nodrill_NOBORDER_13,9"
+		(layer "F.Cu")
+		(uuid "6985ad71-dcbd-4415-88b8-10e9d9ef4dfa")
+		(at 80.18 111.03)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW39"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e177a07a-3c48-4c4c-b42e-e419dd184407")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "PG151101S11"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1ef5ed7f-a94c-4b88-b58f-1f30b02d1dd1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9d966e7e-610d-4c20-acf1-5083a40db349")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a258b942-94d5-47f7-98d8-1057f52bb141")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2803348"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d3d8ae9c-b55c-421d-a315-4ea0375228a1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/2363d76f-f15d-4b53-b1ec-95b305189c72")
+		(sheetname "/")
+		(sheetfile "Skinny Chameleon.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -6.95 -6.95)
+			(end -6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "5827a048-cdbc-4fe0-be61-ae6f5d08b9af")
+		)
+		(fp_line
+			(start -6.95 6.95)
+			(end 6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "9da98a40-f274-4ffc-8d3f-82302bce167c")
+		)
+		(fp_line
+			(start 6.95 -6.95)
+			(end -6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "64bad6ff-1603-47f0-81c3-a4881243b84b")
+		)
+		(fp_line
+			(start 6.95 6.95)
+			(end 6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "3d72c88c-c1b7-4622-b619-a7471fee7a42")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard_Plate:SW_MX_Plate_Placeholder_nodrill_NOBORDER_13,9"
+		(layer "F.Cu")
+		(uuid "6c10d1c0-55b7-43ae-b64f-ccbe0c2a2399")
+		(at 99.18 73.03)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW16"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "210b5296-1238-48b2-a040-75f7db283c44")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "PG151101S11"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c165fe1a-0c8d-4710-a7f6-fa2572d3fbe1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b699bc93-00df-49f6-8de4-6591400d7a91")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "47751bda-4bf0-477a-b5fc-201eca53137f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2803348"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "12c18b4c-6373-4386-8510-676a6cb9e695")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/80cc0a29-7ed2-4acf-a3af-8203cf480c31")
+		(sheetname "/")
+		(sheetfile "Skinny Chameleon.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -6.95 -6.95)
+			(end -6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c3e194e2-6e38-4023-91ed-6cbfed2d532f")
+		)
+		(fp_line
+			(start -6.95 6.95)
+			(end 6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "f0b72302-ae19-42cf-a1c0-5f0680cdcfea")
+		)
+		(fp_line
+			(start 6.95 -6.95)
+			(end -6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "9fde7b2e-a9f6-4a0c-a309-0c6311d25878")
+		)
+		(fp_line
+			(start 6.95 6.95)
+			(end 6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "8d45611d-1eea-4b88-b31b-b4c26050d8b8")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard_Plate:Spacer Plate hole"
+		(layer "F.Cu")
+		(uuid "6fc1f98e-b989-4da4-ba00-9aec7f7358c5")
+		(at 51.63 120.58)
+		(descr "Mounting Hole 2.5mm, no annular")
+		(tags "mounting hole 2.5mm no annular")
+		(property "Reference" "H2"
+			(at 0 -3.5 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "dfc789f3-9cdc-4304-ba1c-687089dc2275")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Spacer_PCB"
+			(at 0 3.5 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1b56d2b3-99af-4b7e-8158-1bd6e2eb998c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5796fee3-67a5-48cb-926e-9cc72f24e709")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a85e63d1-8dde-421d-88eb-dd659d191939")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aedb5d6a-491e-4595-bc1d-a60ff69d51f7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/c6eba680-e1ca-4175-8d89-250fbbf8bc74")
+		(sheetname "/")
+		(sheetfile "Skinny Chameleon.kicad_sch")
+		(attr exclude_from_pos_files dnp)
+		(fp_circle
+			(center 0 0)
+			(end 2.5 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "361077f1-2ec6-42b6-8014-8f83c4c15baf")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.75 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "11ed6e2c-619d-42cc-bdc2-f584d6e32b97")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "592378dc-878f-4657-87e3-75e2fc7255d7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.5 2.5)
+			(drill 2.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "5458feb0-e3d2-42b7-a9c5-f4b4fdd6c0de")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Keyboard_Plate:Spacer Plate hole"
+		(layer "F.Cu")
+		(uuid "72c9c8b1-f856-4e6f-b98e-19b707c07e7f")
+		(at 241.63 120.58)
+		(descr "Mounting Hole 2.5mm, no annular")
+		(tags "mounting hole 2.5mm no annular")
+		(property "Reference" "H5"
+			(at 0 -3.5 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "68ec5c8d-9ec0-42f9-9fd5-d8dfb96aa258")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Spacer_PCB"
+			(at 0 3.5 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7859c05e-4801-4b7a-a271-cafa7a4b7af5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "80e0cb0a-272b-4bff-b3e8-e3ac9f3c2dad")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4c3b567b-8296-4d9c-af0e-c59fd3a1e6c7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ab9c58df-eeb7-4269-bbf1-94470d654c56")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/b7a42435-e4c4-4627-99cb-e79eeeadd5a0")
+		(sheetname "/")
+		(sheetfile "Skinny Chameleon.kicad_sch")
+		(attr exclude_from_pos_files dnp)
+		(fp_circle
+			(center 0 0)
+			(end 2.5 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "0e91bfa6-7315-42f7-802d-e0635c92b374")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.75 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "c89b5a8d-8cd3-41ac-a110-1cf9a970f16e")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "e967162d-9561-449a-991e-83d5e006e0e8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.5 2.5)
+			(drill 2.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "d436d3cd-a456-4c4e-81b0-5e21eb436f2d")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Keyboard_Plate:SW_MX_Plate_Placeholder_nodrill_NOBORDER_13,9"
+		(layer "F.Cu")
+		(uuid "73bd1411-a21e-429a-9a56-37864f22981e")
+		(at 175.18 92.03)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW32"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8da68852-b551-4b3c-84fb-b1f0429807b2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "PG151101S11"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "df77e2ca-2ccc-4724-acd8-2f7b830addee")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b7d78514-9140-4954-9983-b2bc6b481890")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3750176e-d3c8-48b7-9b98-3bddb538ba35")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2803348"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b1139458-2725-4799-81f4-8dfa0e104bbd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/3424470e-c84e-4c62-bca0-05487ee4e0c4")
+		(sheetname "/")
+		(sheetfile "Skinny Chameleon.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -6.95 -6.95)
+			(end -6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "21d921e0-7da7-4c67-aab1-b61c90a75826")
+		)
+		(fp_line
+			(start -6.95 6.95)
+			(end 6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "1706f470-cc7b-4d35-bd5d-9b8b0bb0877d")
+		)
+		(fp_line
+			(start 6.95 -6.95)
+			(end -6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "bbb8ca00-f491-4e21-99c0-4a3793c2e0fb")
+		)
+		(fp_line
+			(start 6.95 6.95)
+			(end 6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "5fa89241-acff-4d05-a43a-f8462a90037c")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard_Plate:SW_MX_Plate_Placeholder_nodrill_NOBORDER_13,9"
+		(layer "F.Cu")
+		(uuid "73e5cfb0-1b86-411c-84a8-29b2359e3391")
+		(at 232.18 111.03)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW47"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "0b34cf2a-376e-4b99-a769-aa0820cedb21")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "PG151101S11"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e5e87d67-1f97-4671-b288-347521593a29")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3243bdb8-9f3e-4eea-8a4a-424e273cd873")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6c230867-ecca-4b43-90d8-a2cbde5ab5ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2803348"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "33facc47-099b-43ed-a463-8a605d405ea2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/3b83c393-1f7a-425a-b3b6-7fdd3b8b9452")
+		(sheetname "/")
+		(sheetfile "Skinny Chameleon.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -6.95 -6.95)
+			(end -6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "f62a69d5-7ed7-43ed-8fb4-aeb9f727f0ca")
+		)
+		(fp_line
+			(start -6.95 6.95)
+			(end 6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "a7cd994f-612e-4bcd-a267-30d636a4c4ed")
+		)
+		(fp_line
+			(start 6.95 -6.95)
+			(end -6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "b7c79399-221e-4fa2-b2e6-7ad7048ea0f1")
+		)
+		(fp_line
+			(start 6.95 6.95)
+			(end 6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "5bd57454-cb05-4645-8ce5-9203bbdfb073")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard_Plate:Spacer Plate hole"
+		(layer "F.Cu")
+		(uuid "7741f298-e71a-4e01-a653-6ae2dc9122e8")
+		(at 203.63 82.53)
+		(descr "Mounting Hole 2.5mm, no annular")
+		(tags "mounting hole 2.5mm no annular")
+		(property "Reference" "H11"
+			(at 0 -3.5 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "53e7659d-e6fa-4d7b-8dfc-387e1ae3c612")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Spacer_PCB"
+			(at 0 3.5 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7f30ab2c-8641-4456-b13e-622569321a1d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cebbd5bf-9720-4682-b2aa-767d6c3abf31")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f29ccfca-fbdb-477c-a4c6-1e6c9bda43c7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f2afa67f-f7be-4ab0-91a5-1c75ba5bd2ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/83b63407-58df-4ca5-bfff-d166c7e44c35")
+		(sheetname "/")
+		(sheetfile "Skinny Chameleon.kicad_sch")
+		(attr exclude_from_pos_files dnp)
+		(fp_circle
+			(center 0 0)
+			(end 2.5 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "9396d235-9663-41d7-a7f7-11e8cca43bec")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.75 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "819418bd-2d81-4f11-938e-5b019d379f3f")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "55b0c96c-1057-4356-8c64-0ac2e1178136")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.5 2.5)
+			(drill 2.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "37f9a6f7-b219-4fb3-b831-686201115c0b")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Keyboard_Plate:SW_MX_Plate_Placeholder_nodrill_NOBORDER_13,9"
+		(layer "F.Cu")
+		(uuid "80a3bab9-d105-453b-923b-d258d8063c92")
+		(at 194.18 92.03)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW33"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e6948fa4-6d8c-4db3-b9f1-ab4202bf531d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "PG151101S11"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "dcba6bee-11aa-40de-b0cb-9c7ebfb19a7b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6a970411-be69-4398-8b70-950701423e0a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c05bfed3-a9fd-40a3-9397-0c15fc0923d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2803348"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b5bc439f-3259-4c92-b5cc-6588a42e71a4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/488061a7-fc4d-43be-8f58-b68b77feef8f")
+		(sheetname "/")
+		(sheetfile "Skinny Chameleon.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -6.95 -6.95)
+			(end -6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "ad72aa9b-9623-42ca-a74d-03cc9e977d7e")
+		)
+		(fp_line
+			(start -6.95 6.95)
+			(end 6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "80c69ff0-a00d-47ac-8e12-a1653b943176")
+		)
+		(fp_line
+			(start 6.95 -6.95)
+			(end -6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "4831ad9c-d73d-49c0-beb2-7e835d070d90")
+		)
+		(fp_line
+			(start 6.95 6.95)
+			(end 6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "9b7a41a2-96a7-44c3-a6b2-66e878ad40a2")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard_Plate:SW_MX_Plate_Placeholder_nodrill_NOBORDER_13,9"
+		(layer "F.Cu")
+		(uuid "891733a5-a816-421d-9a0b-e1ddb7e06287")
+		(at 99.18 92.03)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW28"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6cd51cd6-34eb-43f8-81d3-9f85a9d421d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "PG151101S11"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f4e20d8c-5018-4024-a3cf-d2ad07a13372")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "289fd1f4-6e2a-414c-93b6-4aadce14bcfc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a9c64af0-b928-4a3e-98d6-a7e2db5887f0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2803348"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "361a72e7-7490-4cc7-a39c-73ec3e99c80c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/fa35a9a8-369b-4ada-a5a9-03fa26ba842a")
+		(sheetname "/")
+		(sheetfile "Skinny Chameleon.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -6.95 -6.95)
+			(end -6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "8f94c94c-90b2-4c62-9dcf-2ed47bde39ea")
+		)
+		(fp_line
+			(start -6.95 6.95)
+			(end 6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c1a7fc95-9e9f-432e-82eb-2c527411aebb")
+		)
+		(fp_line
+			(start 6.95 -6.95)
+			(end -6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "cf23d782-8f6b-41ce-8eba-52b23219f2ea")
+		)
+		(fp_line
+			(start 6.95 6.95)
+			(end 6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "bea4efe9-7dca-439f-b8a1-71702364cdf8")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard_Plate:Spacer Plate hole"
+		(layer "F.Cu")
+		(uuid "8bc7d18f-cae7-4c82-a791-e1fecfdf4757")
+		(at 203.63 120.53)
+		(descr "Mounting Hole 2.5mm, no annular")
+		(tags "mounting hole 2.5mm no annular")
+		(property "Reference" "H12"
+			(at 0 -3.5 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b2148407-fc7b-49d5-9103-5ff665a6b290")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Spacer_PCB"
+			(at 0 3.5 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7f8848c0-4541-4c8a-86df-1d6b27f5642d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "978c1a83-9e04-424e-9f19-e7460ce8fcdb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "02cab440-9ba5-4478-8ba1-cebc23b16ef6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dffdc3d9-0f2d-45ef-a9a7-3977fea1fccc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/8ea03b70-483f-431b-acec-adb329f9fe8f")
+		(sheetname "/")
+		(sheetfile "Skinny Chameleon.kicad_sch")
+		(attr exclude_from_pos_files dnp)
+		(fp_circle
+			(center 0 0)
+			(end 2.5 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "746e713c-83bb-40e1-8e9e-f177fc635068")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.75 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "6ba11b90-bd13-438c-b502-0c2bfdee2c72")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "634e6b41-b57a-42eb-bb01-45d51d100f44")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.5 2.5)
+			(drill 2.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "c63a6a38-85cd-4174-b0d5-6e5f6df6b22c")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Keyboard_Plate:SW_MX_Plate_Placeholder_nodrill_NOBORDER_13,9"
+		(layer "F.Cu")
+		(uuid "9018a958-683d-43c6-861a-17cb47a3b9c3")
+		(at 251.18 54.03)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW41"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "039303b6-31d4-43c6-852c-b2dbcfdcf210")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "PG151101S11"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "facfeebd-2f7a-44ef-a0e7-f1a083513d32")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "64dc9174-ffd7-4462-8460-8b9be8a633ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f88e7851-2dbe-4b2f-a2eb-9e87d4533775")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2803348"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6663894f-1751-4628-b90f-c46f0e452c52")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/ff4e769f-30dc-4546-bc8f-630e31609d92")
+		(sheetname "/")
+		(sheetfile "Skinny Chameleon.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -6.95 -6.95)
+			(end -6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "1088511f-6723-4a33-8d4b-803100529b69")
+		)
+		(fp_line
+			(start -6.95 6.95)
+			(end 6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "15f48ce9-d1c8-4244-be9e-10488abb6dd9")
+		)
+		(fp_line
+			(start 6.95 -6.95)
+			(end -6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "f43478c7-b9b4-4501-9a5b-0a595fa6f0e8")
+		)
+		(fp_line
+			(start 6.95 6.95)
+			(end 6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "012ed4cd-76ee-450e-bb84-42970f8ffce5")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard_Plate:Spacer Plate hole"
+		(layer "F.Cu")
+		(uuid "9bc0bc00-5601-4d6d-8a4c-c943516dad6b")
+		(at 241.68 63.53)
+		(descr "Mounting Hole 2.5mm, no annular")
+		(tags "mounting hole 2.5mm no annular")
+		(property "Reference" "H7"
+			(at 0 -3.5 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "387e6c65-a5d5-47cc-bdbe-fe0227c404b8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Spacer_PCB"
+			(at 0 3.5 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9336f368-09ad-4940-b022-1ff3ab99b0b7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a7c1c328-beb3-42a1-8c9b-af8353421bd4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c8848a5e-28a2-492a-9c02-12e13c9ec590")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "12db8a2e-2706-427a-85a4-1b4553aaf67a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/c725ee39-287c-4dfe-b0ad-17992ffc9fe3")
+		(sheetname "/")
+		(sheetfile "Skinny Chameleon.kicad_sch")
+		(attr exclude_from_pos_files dnp)
+		(fp_circle
+			(center 0 0)
+			(end 2.5 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "baf6a354-25a9-4fae-a19e-7a0828b660ba")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.75 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "b40b7e6b-c5b8-4741-948e-a810a404ccc3")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "e6cc302c-a47f-485c-bccd-36762cb3cd42")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.5 2.5)
+			(drill 2.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "4aa45d87-d325-41f7-927e-08b4fac068e6")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Keyboard_Plate:SW_MX_Plate_Placeholder_nodrill_NOBORDER_13,9"
+		(layer "F.Cu")
+		(uuid "9fe7474f-2ca4-4f68-b172-f99177b520a1")
+		(at 61.18 73.03)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW14"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a7525b09-1b48-4403-85f8-a95f0ed7d350")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "PG151101S11"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "587778fa-97fc-422c-a484-b924d5a83b3f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1064e895-9c91-4b65-964f-3bd18873b40f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a45b4496-4dbe-4f5d-9591-c3173afa15b9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2803348"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1cef4fcc-7a90-41c6-a46f-b8616457618e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/bff8b493-878a-4f5c-bedf-27df5eb1e61c")
+		(sheetname "/")
+		(sheetfile "Skinny Chameleon.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -6.95 -6.95)
+			(end -6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "adcf9c5a-35fc-4f2a-b15b-a537df7d754b")
+		)
+		(fp_line
+			(start -6.95 6.95)
+			(end 6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d41e7370-77a4-4d89-8113-99fa3f92768f")
+		)
+		(fp_line
+			(start 6.95 -6.95)
+			(end -6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "a6864966-b26d-480c-9988-e0ac7c641a77")
+		)
+		(fp_line
+			(start 6.95 6.95)
+			(end 6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c496b519-9502-49c4-a5ab-6a22d616c975")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard_Plate:SW_MX_Plate_Placeholder_nodrill_NOBORDER_13,9"
+		(layer "F.Cu")
+		(uuid "a51c47a4-fbc7-4c9c-becc-8e3e5fad8a95")
+		(at 80.18 54.03 180)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW3"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6bae0d76-89c1-48c4-9ad4-81235651bca8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "PG151101S11"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1fc4c4a1-dc42-410c-9296-a5022a6d4cb0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "870f040e-a6ea-4d30-bb2c-8d4d17a88919")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7fa8bdfc-b3db-41d2-bce0-352476ec9bdd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2803348"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d4957f4c-b496-42eb-9078-c2e01e68d30c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/88f29702-372b-4574-94fc-12b8f9e5d85d")
+		(sheetname "/")
+		(sheetfile "Skinny Chameleon.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start 6.95 6.95)
+			(end 6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "dacd8178-1337-494e-ab06-9ac028104fe2")
+		)
+		(fp_line
+			(start 6.95 -6.95)
+			(end -6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "750e6abc-0f26-4c18-a0bc-db0442731811")
+		)
+		(fp_line
+			(start -6.95 6.95)
+			(end 6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "981de0ad-6caa-41b9-91ab-d88d98b8ad06")
+		)
+		(fp_line
+			(start -6.95 -6.95)
+			(end -6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "91f476f8-c128-46e7-a458-69063d65c359")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard_Plate:SW_MX_Plate_Placeholder_nodrill_NOBORDER_13,9"
+		(layer "F.Cu")
+		(uuid "aab23e7f-43be-4269-97ad-a1d940ba8b8f")
+		(at 42.18 54.03)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW54"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a6a968a8-a0cb-4328-a53c-c13d7f78ccff")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "PG151101S11"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d9040c3c-e2ee-4101-83dc-14272b6b3634")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7de76b73-8bf5-4c3b-ab41-cedaec8bf3cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "25c9be76-4a1d-477e-b146-6e57aaa4c3e7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2803348"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a97c2a0d-a607-4913-9c1a-e8bdec3f2d2e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/28027c06-924f-4555-8213-2b83d79311a1")
+		(sheetname "/")
+		(sheetfile "Skinny Chameleon.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -6.95 -6.95)
+			(end -6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "1b16d80a-77a3-4c05-9493-a61beea07b60")
+		)
+		(fp_line
+			(start -6.95 6.95)
+			(end 6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "86c95db5-d59a-4a97-bfd2-168df916cffa")
+		)
+		(fp_line
+			(start 6.95 -6.95)
+			(end -6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "98f20a13-54fe-4da6-a6cd-d0eeffa561f1")
+		)
+		(fp_line
+			(start 6.95 6.95)
+			(end 6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "23c0bf6d-e20f-4dee-9d22-da814b825de5")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard_Plate:SW_MX_Plate_Placeholder_nodrill_NOBORDER_13,9"
+		(layer "F.Cu")
+		(uuid "b55fff44-88b1-4025-99eb-24bf1d03adf3")
+		(at 42.18 73.03)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW13"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "2b4ca723-bc4c-49aa-84c2-86945743f009")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "PG151101S11"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "749c3781-29f7-4c7c-b99d-76f44220c9b1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ce3a626b-e093-4988-b7f7-718654834d5c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c216e908-a63e-4138-a2ac-8e8d67b27e04")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2803348"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b4571474-47cf-4bcd-b07f-fb4c3e9c1a08")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/94e7ded8-67c8-429c-a9b1-166bb69da3c2")
+		(sheetname "/")
+		(sheetfile "Skinny Chameleon.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -6.95 -6.95)
+			(end -6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "cb114ff6-d6a9-40ea-8d5d-f6d3ca3c7770")
+		)
+		(fp_line
+			(start -6.95 6.95)
+			(end 6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "b75aab23-e597-45b9-b6dd-91d1dc291228")
+		)
+		(fp_line
+			(start 6.95 -6.95)
+			(end -6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c2b696cb-58ad-48fb-ae71-b0b6caf44883")
+		)
+		(fp_line
+			(start 6.95 6.95)
+			(end 6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "6426ae24-fbc8-41cd-85e2-d7824d8798e0")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard_Plate:SW_MX_Plate_Placeholder_nodrill_NOBORDER_13,9"
+		(layer "F.Cu")
+		(uuid "b6e5e684-5b34-4b53-8575-88923f43eab1")
+		(at 61.18 54.03 180)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW2"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9dc8c4bf-64c1-4259-b261-c4504182c22c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "PG151101S11"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "80a3df32-efef-4028-a970-25946155b90f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9d2f282f-72c4-4843-b63e-b3979585a5df")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d0d98a10-aa4f-4630-8cf2-22248887f7be")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2803348"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0d3564d1-dc2a-42a4-9d3e-2597b501f2fb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/f761ed92-ce2c-4a63-9230-18eb45a62444")
+		(sheetname "/")
+		(sheetfile "Skinny Chameleon.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start 6.95 6.95)
+			(end 6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "1e5bf56a-c534-4238-b7ae-8f9df28bd6e3")
+		)
+		(fp_line
+			(start 6.95 -6.95)
+			(end -6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "a1169e16-79eb-47c3-9a6e-02fbade6f659")
+		)
+		(fp_line
+			(start -6.95 6.95)
+			(end 6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "aee41ae9-d89f-4a38-a87b-aabf93692eea")
+		)
+		(fp_line
+			(start -6.95 -6.95)
+			(end -6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "b80be330-5753-48a6-8dd4-238f34a61506")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard_Plate:SW_MX_Plate_Placeholder_nodrill_NOBORDER_13,9"
+		(layer "F.Cu")
+		(uuid "bb2150c7-78cd-44a8-9837-18f3abbf5f88")
+		(at 194.18 73.03)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW21"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "856d7859-6733-472f-bb5d-098269a1bbb7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "PG151101S11"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c15ed99c-df4d-4012-8a45-908b64d833d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "432b5935-2b7c-41ea-b1e5-a243929c4dd2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1f36a498-1982-46b0-9013-d6c3d9537753")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2803348"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "56888d86-79d2-4849-8d42-62cc29cfd3d4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/af444da8-d373-495c-8b73-9f5f6382ca7c")
+		(sheetname "/")
+		(sheetfile "Skinny Chameleon.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -6.95 -6.95)
+			(end -6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "03d2b5de-2071-4f11-8902-0b4c12f5288f")
+		)
+		(fp_line
+			(start -6.95 6.95)
+			(end 6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "82a56796-ec50-40ad-a77c-91a8d6e3ae67")
+		)
+		(fp_line
+			(start 6.95 -6.95)
+			(end -6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "9b7075e6-9eca-4266-97c1-6fd83127fb82")
+		)
+		(fp_line
+			(start 6.95 6.95)
+			(end 6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "20871586-8b5e-4c7e-804f-9bc40a0ac503")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard_Plate:SW_MX_Plate_Placeholder_nodrill_NOBORDER_13,9"
+		(layer "F.Cu")
+		(uuid "c23a0073-af71-484d-9abe-96b5b1b59302")
+		(at 42.18 111.03)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW63"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b5876574-264e-4e92-8713-545788d980c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "PG151101S11"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "fbf6c51d-45c3-46fd-bcbb-acfb61a875a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5c3b9457-77b7-4d25-93b4-5c599d840bd2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1ef47006-b8e7-4c0f-beb2-1b92f40ab9b8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2803348"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1c1c542e-7919-4418-b273-e5de1920e860")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/fb9d67a8-cae0-4fe6-9f09-bd269431ea97")
+		(sheetname "/")
+		(sheetfile "Skinny Chameleon.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -6.95 -6.95)
+			(end -6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "5bc2d4df-8df2-4b4e-9875-0bfe6130048f")
+		)
+		(fp_line
+			(start -6.95 6.95)
+			(end 6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "7ffb4827-874a-46ce-9773-6bad7ead6ec5")
+		)
+		(fp_line
+			(start 6.95 -6.95)
+			(end -6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "fba7403f-229a-45cd-92e4-092644b19c1c")
+		)
+		(fp_line
+			(start 6.95 6.95)
+			(end 6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "84d8cae5-5d7f-4bb5-b91c-04bd258f6e63")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard_Plate:SW_MX_Plate_Placeholder_nodrill_NOBORDER_13,9"
+		(layer "F.Cu")
+		(uuid "c7c93885-2337-4c63-80ec-23e112870fe9")
+		(at 213.18 111.03)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW46"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "860b6bdd-368f-42db-82e2-e1e13ea5b3a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "PG151101S11"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "082b92d2-2c80-45c4-ac26-55adc2c8851b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a8c4d83d-f4ec-4cf2-955e-f7a1752d1cbb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d0dea6ba-0428-4df5-843b-0f8ceacb6619")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2803348"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d5d41601-4a92-4c53-8b9b-149df06dfa06")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/e3c2b761-bc99-473d-bed9-19257a16d53b")
+		(sheetname "/")
+		(sheetfile "Skinny Chameleon.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -6.95 -6.95)
+			(end -6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "7e1d4401-0f41-4c29-bccb-dddda868a3cd")
+		)
+		(fp_line
+			(start -6.95 6.95)
+			(end 6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "5082dea8-669e-46e2-854c-fb4650aaa9d3")
+		)
+		(fp_line
+			(start 6.95 -6.95)
+			(end -6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d685ccc1-ae25-4e65-b4cc-f43d51e52bbb")
+		)
+		(fp_line
+			(start 6.95 6.95)
+			(end 6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "ab4f15a5-0f1b-4de7-8a90-b33908595845")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard_Plate:SW_MX_Plate_Placeholder_nodrill_NOBORDER_13,9"
+		(layer "F.Cu")
+		(uuid "d278d65b-103e-46fd-a215-63259d4d96f8")
+		(at 251.18 111.03)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW53"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "85b1ce24-8857-4b51-bc55-4b571b814d25")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "PG151101S11"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "79dd75df-d257-4270-a0c9-002e0f01cb21")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "328c049d-0536-4217-be5d-321bc27bf116")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d9d14699-0ef8-4605-8a04-9476887f7d50")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2803348"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "847e5477-beb8-4ced-abce-f6700fd584d9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/eca5122f-e75c-45dc-94d4-7e0f63042f73")
+		(sheetname "/")
+		(sheetfile "Skinny Chameleon.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -6.95 -6.95)
+			(end -6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "f531e447-76df-4117-ac31-6dfbebebf401")
+		)
+		(fp_line
+			(start -6.95 6.95)
+			(end 6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "4c66efb9-b891-4d59-a2f6-adea8bc2a516")
+		)
+		(fp_line
+			(start 6.95 -6.95)
+			(end -6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "7cdc9d7e-fb6b-4920-9bb8-8ffdd1bf0e08")
+		)
+		(fp_line
+			(start 6.95 6.95)
+			(end 6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "1adb70dd-5102-425d-9d9f-b27e63f457a2")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard_Plate:SW_MX_Plate_Placeholder_nodrill_NOBORDER_13,9"
+		(layer "F.Cu")
+		(uuid "dbb83fd3-fa59-4263-bbcc-1aa71db5806b")
+		(at 118.18 73.03)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW17"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a278cb0b-a4cd-473a-b6cb-6918a03c8da0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "PG151101S11"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "140f51f1-3745-4f3d-a8c8-1941640e3e72")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f4cd33ff-a84c-4846-b8c5-e185b91dfcfc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "554a0508-ca0c-4bbe-831d-3c3a5be613f5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2803348"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4d681b1a-b1f2-47ed-8679-4e6b8c8a6591")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/cfc035b0-e161-426f-908c-0f131f99cb60")
+		(sheetname "/")
+		(sheetfile "Skinny Chameleon.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -6.95 -6.95)
+			(end -6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "226aeea6-1de7-469c-b18f-072c7ea1c3e1")
+		)
+		(fp_line
+			(start -6.95 6.95)
+			(end 6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "6b6e5716-a384-48a1-8df2-bf460cd71957")
+		)
+		(fp_line
+			(start 6.95 -6.95)
+			(end -6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "92dd6e96-237f-4a89-b31c-672654e8e32a")
+		)
+		(fp_line
+			(start 6.95 6.95)
+			(end 6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "b180bb65-b854-42b6-970f-07f07e85535f")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard_Plate:SW_MX_Plate_Placeholder_nodrill_NOBORDER_13,9"
+		(layer "F.Cu")
+		(uuid "dc6e5c77-c67e-4a2a-a870-2100e45819cb")
+		(at 80.18 92.03)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW27"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "65e4c084-f27c-4419-ae46-60c75272e16d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "PG151101S11"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "511ea0e1-7d44-436f-9c17-ea3ad2c582b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0fc9b730-5c08-4b83-81f4-7edd99c2c2ea")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a8e60bfd-9839-4a96-8021-400c6a68aa87")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2803348"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e891e090-3902-435b-ae04-82edc6670819")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/8538dada-ab4c-4168-a35a-e847e7958d54")
+		(sheetname "/")
+		(sheetfile "Skinny Chameleon.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -6.95 -6.95)
+			(end -6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "ea6187cb-5586-454b-8e31-51fb0833a69d")
+		)
+		(fp_line
+			(start -6.95 6.95)
+			(end 6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "1559cf7c-5cef-44d2-87d4-058dd3eaacff")
+		)
+		(fp_line
+			(start 6.95 -6.95)
+			(end -6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "3ef7f3c0-7d93-4dd2-b4ec-dadcd920b5ef")
+		)
+		(fp_line
+			(start 6.95 6.95)
+			(end 6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "55d1369a-f57a-421a-8851-7995690e3cb3")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard_Plate:SW_MX_Plate_Placeholder_nodrill_NOBORDER_13,9"
+		(layer "F.Cu")
+		(uuid "e1737967-af7c-4f4b-8b59-b9fb6d7d1c60")
+		(at 99.18 111.03)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW40"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "da4fae2d-2559-4785-987c-86f8e05bb2ef")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "PG151101S11"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "124a1719-945c-4199-865a-19e7b1eec8bf")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "731482dc-8390-4ef6-bfa3-243ca1ebb9d6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "97b85039-3d00-4e78-8036-f8eb2a942ff0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2803348"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "35afc0d9-b2a0-4c1e-a896-094c7a1cbcae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/493f2923-f4c3-472e-9ad7-8033d10c9546")
+		(sheetname "/")
+		(sheetfile "Skinny Chameleon.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -6.95 -6.95)
+			(end -6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "3d907dcc-89cd-457c-ab3c-63bc3c2b311e")
+		)
+		(fp_line
+			(start -6.95 6.95)
+			(end 6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "66c551bd-99e6-425d-a60b-044e5f18bf95")
+		)
+		(fp_line
+			(start 6.95 -6.95)
+			(end -6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "e5eb170d-5a51-4166-a159-5ac45dde0ba2")
+		)
+		(fp_line
+			(start 6.95 6.95)
+			(end 6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "a776d3a8-e897-45fc-8fc8-8abadbcc72af")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard_Plate:Spacer Plate hole"
+		(layer "F.Cu")
+		(uuid "e4fe7365-c58b-4f22-b8f3-2960ffc24fa4")
+		(at 146.68 82.53)
+		(descr "Mounting Hole 2.5mm, no annular")
+		(tags "mounting hole 2.5mm no annular")
+		(property "Reference" "H9"
+			(at 0 -3.5 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d863f711-64cb-4702-83c4-76ab3927d64c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Spacer_PCB"
+			(at 0 3.5 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "db002c13-bc98-49ee-8508-68854327c9c9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d8748def-9ba2-4d69-8fb0-c57577bc9ecd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fecca9fe-5549-4b5f-ac53-ebdecf6527ab")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "75eadfdf-1b96-4a81-8210-37b005d44dba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/14e2121f-18f0-47ce-8c70-33b51d2efec2")
+		(sheetname "/")
+		(sheetfile "Skinny Chameleon.kicad_sch")
+		(attr exclude_from_pos_files dnp)
+		(fp_circle
+			(center 0 0)
+			(end 2.5 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "909a37b9-ef21-468e-ba9b-3b2f70fb1779")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.75 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "0476492c-4650-4aed-9795-503998469687")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "7da2ce71-5b24-4884-8edf-11f388391184")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.5 2.5)
+			(drill 2.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "34a1e361-8577-4fa7-9ff9-6fc5e476856b")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Keyboard_Plate:SW_MX_Plate_Placeholder_nodrill_NOBORDER_13,9"
+		(layer "F.Cu")
+		(uuid "e7e1fea2-5c16-464c-b423-03732e5c202b")
+		(at 232.18 92.03)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW35"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "dcfa20cf-bf5a-461b-9220-ec07dc7588c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "PG151101S11"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "21e9be39-562d-400d-bea1-a3906e759fe4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d6e32744-493b-4fb9-b78a-babff36c5d6c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b10d40ff-54da-4a4b-b488-8f796084de92")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2803348"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d947798c-4511-4a31-9dd3-9fa3c8028f49")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/feaf742b-3637-40be-a6a5-93ed52c34af5")
+		(sheetname "/")
+		(sheetfile "Skinny Chameleon.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -6.95 -6.95)
+			(end -6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "ee118f4e-3cc6-42f5-bce3-e40534b5da53")
+		)
+		(fp_line
+			(start -6.95 6.95)
+			(end 6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "686cf64e-73bd-49b1-ab58-8afd8a575c14")
+		)
+		(fp_line
+			(start 6.95 -6.95)
+			(end -6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "57f6102a-d2f5-4162-b942-3dd52eec70d2")
+		)
+		(fp_line
+			(start 6.95 6.95)
+			(end 6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "538da0d1-cdae-401e-b024-d9adcc187298")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard_Plate:SW_MX_Plate_Placeholder_nodrill_NOBORDER_13,9"
+		(layer "F.Cu")
+		(uuid "f18f8df5-8400-4839-8ca8-55d28a94ea21")
+		(at 99.18 54.03)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW4"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1d72f581-239a-4f3f-9ec8-a488478fd629")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "PG151101S11"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "2820b793-079f-4519-bbcb-f51e1777edfd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a33050a4-e2ef-4cc3-9fac-def7fd005413")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3795e669-5ee1-4ed3-b83e-8e6fcb18c2ed")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2803348"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "801626f9-2464-4e18-9128-6016a3b11d0e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/bf2bbf1f-148b-47b8-9cb0-1bd027972c96")
+		(sheetname "/")
+		(sheetfile "Skinny Chameleon.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -6.95 -6.95)
+			(end -6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "11315fd0-8514-4e22-9434-ad75e1413221")
+		)
+		(fp_line
+			(start -6.95 6.95)
+			(end 6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "3eb1dfb0-f040-453c-b12f-d4ccc828236a")
+		)
+		(fp_line
+			(start 6.95 -6.95)
+			(end -6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "e9fd82b8-eddc-4af3-b3ba-869605fec107")
+		)
+		(fp_line
+			(start 6.95 6.95)
+			(end 6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "655e7def-e42b-46ea-ad17-e4738c26743b")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard_Plate:SW_MX_Plate_Placeholder_nodrill_NOBORDER_13,9"
+		(layer "F.Cu")
+		(uuid "f2f94c5b-72a7-43a3-a035-c2cee93faa25")
+		(at 80.18 73.03)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW15"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "0bc42b3c-a1b4-4f51-bad8-dae59c5ae7f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "PG151101S11"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "731d91dd-a96a-4f62-91e4-08d1694f7763")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "909e983c-240d-425b-92ac-135fb56b7845")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "360d4b39-769a-4f38-a917-bace7378217e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2803348"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "65b41201-0ae5-47e7-9a2d-ab040e635bdb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/a3ad44e4-e6c0-416f-991e-8d7a612ef6b1")
+		(sheetname "/")
+		(sheetfile "Skinny Chameleon.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -6.95 -6.95)
+			(end -6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "a9fd32fb-b505-4186-b5b3-2ac93a667007")
+		)
+		(fp_line
+			(start -6.95 6.95)
+			(end 6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "cc6f83ac-535d-43c9-a11f-e5f7ab0c400f")
+		)
+		(fp_line
+			(start 6.95 -6.95)
+			(end -6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "e2c4b9ce-f49f-43fb-82b4-7c92f5f2da4a")
+		)
+		(fp_line
+			(start 6.95 6.95)
+			(end 6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "7e4405b5-5e29-4853-bd03-a55b6e7b8965")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard_Plate:SW_MX_Plate_Placeholder_nodrill_NOBORDER_13,9"
+		(layer "F.Cu")
+		(uuid "f3f10278-9642-47c7-a640-eae8ebc41f8f")
+		(at 156.18 92.03)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW31"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "18236d77-0b26-4353-bff6-698e15c631a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "PG151101S11"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "03a10002-ff90-4422-bc87-e586a07ba35c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ac3cbdc1-ab33-4c26-b846-a4e018f8ef37")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a2073632-f585-408c-aaac-4474fe5abb66")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2803348"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3f74d563-7bfd-4d01-9c4b-f5f64bb14bd9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/94b1a181-b687-4db2-8d48-cec54eab68f1")
+		(sheetname "/")
+		(sheetfile "Skinny Chameleon.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -6.95 -6.95)
+			(end -6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "f4c7cf43-5964-4bf0-966d-b6c76e2c7e41")
+		)
+		(fp_line
+			(start -6.95 6.95)
+			(end 6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "103f3566-0ecf-4cd7-bf69-b9e503a1a7e3")
+		)
+		(fp_line
+			(start 6.95 -6.95)
+			(end -6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "a4d62ed0-4fa8-4c8f-840f-91bdc68998a7")
+		)
+		(fp_line
+			(start 6.95 6.95)
+			(end 6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "1c9af575-a1da-4a61-b840-d9929ce3b270")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(footprint "Keyboard_Plate:SW_MX_Plate_Placeholder_nodrill_NOBORDER_13,9"
+		(layer "F.Cu")
+		(uuid "fca4cc7a-2cce-4cf0-86cb-166e404f3374")
+		(at 99.18 130.03)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW52"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "176d26e9-8462-4649-afb2-b5ca063e59b8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "PG151101S11"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1730ed75-01ca-40db-ad82-e4f3eaec3d20")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "021ee040-9346-491c-94a0-08348a5b5ae2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0fa091cd-8ab6-4459-a7a6-52f50ece6503")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2803348"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "26524d7a-83e8-45a1-b0ea-b4dbc3534ea6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/5bfa8e11-f562-44f8-a6fa-33dc49b0de7d")
+		(sheetname "/")
+		(sheetfile "Skinny Chameleon.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -6.95 -6.95)
+			(end -6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "a3cf84cb-819c-4a0c-899c-afe5adb4c4e2")
+		)
+		(fp_line
+			(start -6.95 6.95)
+			(end 6.95 6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "773e93a4-3ca2-44b0-9a2f-66b91994dadd")
+		)
+		(fp_line
+			(start 6.95 -6.95)
+			(end -6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "421ec47e-ea44-4eb3-912d-308336310741")
+		)
+		(fp_line
+			(start 6.95 6.95)
+			(end 6.95 -6.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "4cbd3e20-9ae7-4858-bb63-7fde8355ea57")
+		)
+		(embedded_fonts no)
+		(model "${KICAD6_3RD_PARTY}/3dmodels/Kailh Hotswap MX/MX PCB Switch.stp"
+			(offset
+				(xyz 0.25 -0.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 -90)
+			)
+		)
+	)
+	(gr_line
+		(start 32.72 47.07)
+		(end 32.722538 63.608034)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "0443b48c-357e-4de0-aa67-18f4e78f8544")
+	)
+	(gr_arc
+		(start 255.62 62.57)
+		(mid 256.12 63.07)
+		(end 255.62 63.57)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "07cba59b-c47a-4e54-a485-e32eafef5afb")
+	)
+	(gr_arc
+		(start 258.12 44.57)
+		(mid 259.887767 45.302233)
+		(end 260.62 47.07)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "0a95dc94-dc80-4251-97ca-84a79d0d80d1")
+	)
+	(gr_line
+		(start 37.72 62.57)
+		(end 48.63 62.570001)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "0d5129c0-a436-409b-8d81-46f516d8a381")
+	)
+	(gr_line
+		(start 238.62 63.57)
+		(end 214.18 63.57)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "0dbdf922-03e5-4c6b-97b0-490809c881b0")
+	)
+	(gr_line
+		(start 212.18 63.57)
+		(end 185.68 63.57)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "0e1bb727-8bd6-45d7-b444-8864fb6e4acf")
+	)
+	(gr_line
+		(start 260.62 66.07)
+		(end 260.62 136.97)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "15e4bec8-c2d2-4149-9707-95d381865242")
+	)
+	(gr_arc
+		(start 48.63 62.570001)
+		(mid 49.129999 63.07)
+		(end 48.63 63.570001)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "1ac67b9e-f014-4b96-8c17-9d56cf6d39d4")
+	)
+	(gr_arc
+		(start 185.68 63.57)
+		(mid 185.18 63.07)
+		(end 185.68 62.57)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "1ef26bdd-4d1a-446f-a45c-25d3b33c9355")
+	)
+	(gr_arc
+		(start 79.18 62.57)
+		(mid 79.68 63.07)
+		(end 79.18 63.57)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "2c23d4e2-a595-49c2-9cc7-c5981c0cee39")
+	)
+	(gr_arc
+		(start 32.72 66.07)
+		(mid 33.452233 64.302233)
+		(end 35.22 63.57)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "30190618-b373-4956-81ba-89f9387536b1")
+	)
+	(gr_line
+		(start 107.68 62.57)
+		(end 81.18 62.57)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "31d862ff-39f7-4097-9361-1375b11f2868")
+	)
+	(gr_arc
+		(start 214.18 63.57)
+		(mid 213.68 63.07)
+		(end 214.18 62.57)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "33507744-3a01-4ef9-82d4-85f1f3a7faff")
+	)
+	(gr_line
+		(start 81.18 63.57)
+		(end 107.68 63.57)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "36ead1a1-cc3b-495b-9887-437f2f6574e1")
+	)
+	(gr_arc
+		(start 258.12 63.57)
+		(mid 259.887767 64.302233)
+		(end 260.62 66.07)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "3f464be0-6db7-4e1e-86f9-20de06915d01")
+	)
+	(gr_line
+		(start 136.18 62.57)
+		(end 109.68 62.57)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "42b16e06-92a5-4dd7-98d5-8b1cb3782c55")
+	)
+	(gr_arc
+		(start 32.722786 63.607785)
+		(mid 33.868492 62.841278)
+		(end 35.22 62.57)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "45a259d7-20f4-4e3f-b3ae-7b3a275aaf03")
+	)
+	(gr_arc
+		(start 54.73 63.57)
+		(mid 54.23 63.07)
+		(end 54.73 62.57)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "45c73866-8467-492a-9cc5-062a66e92a2e")
+	)
+	(gr_arc
+		(start 212.18 62.57)
+		(mid 212.68 63.07)
+		(end 212.18 63.57)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "566fb0fb-ca65-473c-ab5f-62b86051a680")
+	)
+	(gr_line
+		(start 32.72 66.07)
+		(end 32.72 136.97)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "57733097-0e03-436e-9a89-e18a42bbd48d")
+	)
+	(gr_line
+		(start 54.73 63.57)
+		(end 79.18 63.57)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "5fb7d89b-568f-45a4-bd61-dce65a1516ac")
+	)
+	(gr_line
+		(start 183.68 63.57)
+		(end 157.18 63.57)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "6910ab87-89d3-45a4-83f5-f6b95aa490e0")
+	)
+	(gr_arc
+		(start 138.18 63.57)
+		(mid 137.68 63.07)
+		(end 138.18 62.57)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "6b7d6a82-ae6f-4427-a4b7-6ae5498136f0")
+	)
+	(gr_line
+		(start 244.72 63.57)
+		(end 255.62 63.57)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "78746146-30d6-4af2-99d4-3ee7eb71d193")
+	)
+	(gr_arc
+		(start 258.12 63.57)
+		(mid 257.62 63.07)
+		(end 258.12 62.57)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "79216e6d-5e91-48da-9fbe-aea9b97cd8ba")
+	)
+	(gr_arc
+		(start 183.68 62.57)
+		(mid 184.18 63.07)
+		(end 183.68 63.57)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7e972de4-982b-48de-96f9-7f8b33fd05b2")
+	)
+	(gr_arc
+		(start 109.68 63.57)
+		(mid 109.18 63.07)
+		(end 109.68 62.57)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7f6125b9-b74b-41ab-8213-1e3a99b6f103")
+	)
+	(gr_line
+		(start 212.18 62.57)
+		(end 185.68 62.57)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "81a63396-1125-4434-8c05-6d351145c48e")
+	)
+	(gr_arc
+		(start 238.62 62.57)
+		(mid 239.12 63.07)
+		(end 238.62 63.57)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "8a122186-f21e-4c78-8424-8daa5e622dd5")
+	)
+	(gr_arc
+		(start 107.68 62.57)
+		(mid 108.18 63.07)
+		(end 107.68 63.57)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "8cfbcc75-8dd5-4524-b108-dfb1b41b00ec")
+	)
+	(gr_line
+		(start 109.68 63.57)
+		(end 136.18 63.57)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "938afe17-6970-414b-b5c5-ee3d70807ab2")
+	)
+	(gr_arc
+		(start 32.72 47.07)
+		(mid 33.452233 45.302233)
+		(end 35.22 44.57)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "9a593bc6-f653-4ee5-a4c6-f23c67bf278f")
+	)
+	(gr_line
+		(start 183.68 62.57)
+		(end 157.18 62.57)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "acb15bb1-3dbd-4311-a4c6-602889e98a2f")
+	)
+	(gr_arc
+		(start 81.18 63.57)
+		(mid 80.68 63.07)
+		(end 81.18 62.57)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "b48a44ff-3e1a-4cae-ad24-717a1b9f6d1b")
+	)
+	(gr_line
+		(start 238.62 62.57)
+		(end 214.18 62.57)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "b6e062f4-8378-487a-a837-5f25592b8a44")
+	)
+	(gr_line
+		(start 244.72 62.57)
+		(end 255.62 62.57)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "b9933c6d-564a-497d-b690-eb95ed3681d3")
+	)
+	(gr_line
+		(start 54.73 62.57)
+		(end 79.18 62.57)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "baa8bc72-22a1-40ec-b8d7-2224d04fca28")
+	)
+	(gr_line
+		(start 260.62 63.608)
+		(end 260.62 47.07)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d234b271-4ed8-472e-92a8-9ddcf7addb19")
+	)
+	(gr_arc
+		(start 155.18 62.57)
+		(mid 155.68 63.07)
+		(end 155.18 63.57)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d357d7d5-447f-495a-9b89-af8cb1f8e7eb")
+	)
+	(gr_arc
+		(start 157.18 63.57)
+		(mid 156.68 63.07)
+		(end 157.18 62.57)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "db4add79-b452-4b29-97db-472113769b74")
+	)
+	(gr_line
+		(start 138.18 62.57)
+		(end 155.18 62.57)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e1d6efee-8574-4f61-a377-e88a2310d736")
+	)
+	(gr_line
+		(start 35.22 139.47)
+		(end 258.12 139.47)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e1e33092-215c-4d18-aa90-f202a0deaabd")
+	)
+	(gr_arc
+		(start 37.72 63.57)
+		(mid 37.22 63.07)
+		(end 37.72 62.57)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e82cb281-0173-42c1-9ff4-f3743cd0038c")
+	)
+	(gr_arc
+		(start 258.122786 62.570215)
+		(mid 259.474293 62.841504)
+		(end 260.62 63.608)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e88a6f37-72de-475a-b348-d664bae95205")
+	)
+	(gr_arc
+		(start 35.22 62.57)
+		(mid 35.72 63.07)
+		(end 35.22 63.57)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ea286dab-f3bb-4987-ad12-f2fab8457754")
+	)
+	(gr_line
+		(start 37.72 63.57)
+		(end 48.63 63.570001)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ecd5fe78-cf1f-4c7e-98a8-fbca7f41cada")
+	)
+	(gr_arc
+		(start 260.62 136.97)
+		(mid 259.887767 138.737767)
+		(end 258.12 139.47)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "efcd866f-bcec-4d0e-be1b-11611307a770")
+	)
+	(gr_line
+		(start 258.12 44.57)
+		(end 35.22 44.57)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "efdc54f6-3d6b-4cab-a79f-51e1b62b08ad")
+	)
+	(gr_line
+		(start 138.18 63.57)
+		(end 155.18 63.57)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f3ad82b0-8c48-45df-a67a-fc09057864e1")
+	)
+	(gr_arc
+		(start 244.72 63.57)
+		(mid 244.22 63.07)
+		(end 244.72 62.57)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f52a9991-8ca0-4836-a0b8-331d6478cf92")
+	)
+	(gr_arc
+		(start 35.22 139.47)
+		(mid 33.452233 138.737767)
+		(end 32.72 136.97)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f7ded8df-c1f5-4650-9340-603798657cfd")
+	)
+	(gr_arc
+		(start 136.18 62.57)
+		(mid 136.68 63.07)
+		(end 136.18 63.57)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "fde9b9d6-e7b0-4e08-980c-2ed699df4799")
+	)
+	(gr_text "Chameleon Plate - v1.00 - Markus Knutsson 2025\nhttps://github.com/TweetyDaBird"
+		(at 153.475 83.95 0)
+		(layer "F.SilkS")
+		(uuid "6fea8a69-59dc-431f-a51c-9581b424ce7a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.153)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "JLCJLCJLCJLC"
+		(at 220.18 83.11 0)
+		(layer "F.SilkS")
+		(uuid "de80f5d3-05b0-41ba-af62-ab7b3dc72687")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.153)
+			)
+			(justify left bottom)
+		)
+	)
+	(dimension
+		(type aligned)
+		(layer "Cmts.User")
+		(uuid "234463b8-6b39-469a-ab70-c6a5ec942a20")
+		(pts
+			(xy 257.405 119.055) (xy 257.405 46.055)
+		)
+		(height 19.965)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.15)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "73,0000 mm"
+			(at 276.22 82.555 90)
+			(layer "Cmts.User")
+			(uuid "234463b8-6b39-469a-ab70-c6a5ec942a20")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type aligned)
+		(layer "Cmts.User")
+		(uuid "27236574-06a1-473f-a874-308b7fd6a3d2")
+		(pts
+			(xy 33.955 48.605) (xy 259.905 48.555)
+		)
+		(height -19.273175)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.15)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "225,9500 mm"
+			(at 146.925481 28.156825 0.01267886227)
+			(layer "Cmts.User")
+			(uuid "27236574-06a1-473f-a874-308b7fd6a3d2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type aligned)
+		(layer "Cmts.User")
+		(uuid "b432cb1e-a67a-4c84-90c1-20194fbce303")
+		(pts
+			(xy 257.405 46.055) (xy 257.405 138.105)
+		)
+		(height -14.355)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.15)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "92,0500 mm"
+			(at 270.61 92.08 90)
+			(layer "Cmts.User")
+			(uuid "b432cb1e-a67a-4c84-90c1-20194fbce303")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Cmts.User")
+		(uuid "1df0bb19-e583-4b52-a22e-38951b892ffd")
+		(pts
+			(xy 75.15 44.507) (xy 76.428607 46.10116)
+		)
+		(height 6.6)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.15)
+			(arrow_length 1.27)
+			(text_position_mode 2)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "1,5942 mm"
+			(at 81.75 39.5 90)
+			(layer "Cmts.User")
+			(uuid "1df0bb19-e583-4b52-a22e-38951b892ffd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Cmts.User")
+		(uuid "835e5eaf-84c9-42bd-b659-889865e5a3bd")
+		(pts
+			(xy 65.585 44.257) (xy 75.775 44.257)
+		)
+		(height -6.257)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.15)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "10,1900 mm"
+			(at 70.68 36.85 0)
+			(layer "Cmts.User")
+			(uuid "835e5eaf-84c9-42bd-b659-889865e5a3bd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Cmts.User")
+		(uuid "e4045b63-bcfc-494c-96b2-7b49b2abb876")
+		(pts
+			(xy 70.68 48.9695) (xy 33.955 48.605)
+		)
+		(height -8.7195)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.15)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "36,7250 mm"
+			(at 52.3175 39.1 0)
+			(layer "Cmts.User")
+			(uuid "e4045b63-bcfc-494c-96b2-7b49b2abb876")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(embedded_fonts no)
+)
